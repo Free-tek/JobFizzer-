@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    tools:ignore="MissingPrefix"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:id="@+id/categoryLayout"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            app:cardCornerRadius="15dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp">
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/categoryImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/shadow_15"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/splash"
+                    android:visibility="visible"
+                    app:riv_corner_radius="15dp"
+                    app:riv_oval="false" />
+
+                <RelativeLayout
+                    android:id="@+id/favorite_layout"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_alignParentEnd="true"
+                    >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:tint="?colorPrimary"
+                        android:src="@drawable/rounded_layout"
+                        android:layout_height="match_parent" />
+
+                    <ImageView
+                        android:id="@+id/favorite_icon"
+                        android:layout_width="15dp"
+                        android:layout_height="12dp"
+                        android:layout_centerInParent="true"
+                        android:layout_margin="5dp"
+                        android:src="@drawable/unfilled" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <TextView
+            android:id="@+id/categoryName"
+            fontPath="fonts/Ubuntu-Regular.ttf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_colour"
+            android:layout_below="@+id/categoryImage"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center_horizontal"
+            android:text="Baby Sitting"
+            android:textSize="15sp"
+             />
+    </LinearLayout>
+</RelativeLayout>

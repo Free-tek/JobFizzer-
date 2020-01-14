@@ -1,0 +1,269 @@
+<resources>
+    <string name="app_name">Jobfizzer</string>
+
+    <string name="thanks_for">Thanks for using Jobfizzer service</string>
+    <string name="jobfizzer">Jobfizzer</string>
+    <string name="text_one">Jobfizzer is your one stop destination for all lifestyle services. We help you hire local professionals.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+    <string name="title_activity_enter_verification_code">Enter Verification Code</string>
+    <string name="use_my_current_location"><u>Use my current location</u></string>
+    <string name="tell_us_your_place">Tell us your place, We\'ll provide our service</string>
+    <string name="logout">Logout</string>
+    <string name="about_us">About us</string>
+    <string name="notification">Notification</string>
+    <string name="create_new_address">Create new address</string>
+    <string name="door_no">Door no</string>
+    <string name="confirm">Confirm</string>
+    <string name="landmark">Landmark</string>
+    <string name="sort_by_lowset">Sort by lowest distance</string>
+    <string name="sort_by_highest">Sort by highest review</string>
+    <string name="payment_method">Payment Method</string>
+    <string name="invoice">Invoice</string>
+    <string name="provider_name">Provider name</string>
+    <string name="billing_name">Billing Name</string>
+    <string name="booking_id">Booking ID</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="price">Price</string>
+    <string name="gst">GST</string>
+    <string name="total">Total</string>
+    <string name="waiting_for">Waiting For payment Confirmation</string>
+    <string name="help_your">Help your provider improve their service by rating them</string>
+    <string name="give_us">Give us your rating</string>
+    <string name="submit">Submit</string>
+    <string name="search">Search . . .</string>
+    <string name="first_name">FIRST NAME</string>
+    <string name="last_name">LAST NAME</string>
+    <string name="email">EMAIL ID</string>
+    <string name="phone">PHONE NUMBER</string>
+    <string name="password">PASSWORD</string>
+    <string name="signup">Signup</string>
+    <string name="alread_have_an">Already have an account?</string>
+    <string name="account_created_successfully">Account Created Successfully</string>
+    <string name="please_enter_valid_firstname">Please Enter Valid First Name</string>
+    <string name="please_enter_valid_lastname">Please Enter Valid Last Name</string>
+    <string name="please_enter_valid_mobilenumber">Please Enter Valid Mobile Number</string>
+    <string name="please_enter_valid_email">Please Enter Valid Email</string>
+    <string name="miscellaneous_details">Miscellaneous Details</string>
+    <string name="tax">Tax</string>
+    <string name="please_enter_valid_otp">Please Enter Otp</string>
+    <string name="please_enter_valid_phoneNumber">Please Enter Valid Phone Number</string>
+    <string name="please_enter_valid_password">Please Enter Valid Password</string>
+    <string name="add_address_caps">Add Address</string>
+    <string name="type_your_comments">Type your comments…</string>
+    <string name="are_you_sure_cancel">Are you sure, You want to cancel the job?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="send">Send</string>
+    <string name="enter_validation">Enter Validation Code</string>
+    <string name="verify">Verify</string>
+    <string name="new_password">New password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="save">Save</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="password_changed_success">Password Changed Successfully</string>
+    <string name="title">Title</string>
+    <string name="enter_valid_address">Please Enter Valid Address</string>
+    <string name="enter_valid_door_no">Please Enter Valid Door number</string>
+    <string name="enter_valid_landmark">Please Enter Valid Landmark</string>
+    <string name="address_added_successully">Address Added Successfully</string>
+    <string name="enter_valid_title">Please Enter Valid Title</string>
+    <string name="fetching">Fetching Address....</string>
+    <string name="price_per_hour">per hour</string>
+    <string name="loading">Loading. . .</string>
+    <string name="worked_hours">Worked hours</string>
+    <string name="change_password">Change Password</string>
+    <string name="old_password">Old Password</string>
+    <string name="okay">OKAY</string>
+    <string name="please_select_time">Please Select atleast one time slot</string>
+    <string name="please_select_date">Please select atleast one date</string>
+    <string name="please_select_address">Please select atleast any one of the address</string>
+    <string name="pending">Pending</string>
+    <string name="accepted">Accepted</string>
+    <string name="completed">Completed</string>
+    <string name="review_pending">Review</string>
+    <string name="finished">Finished</string>
+    <string name="login_to_access_this">Please Sign in to access this feature</string>
+    <string name="sign_in">Sign In</string>
+
+    <string name="camera_permission_error">You need to give permission to open camera</string>
+    <string name="storage_permission_error">You need to give permission to open storage</string>
+
+    <string name="rejected">Rejected</string>
+    <string name="cancelled">Cancelled</string>
+    <string name="oops">Confirm</string>
+    <string name="on_the_way">On the Way</string>
+    <string name="profile_updated_successfully">Profile Updated Successfully</string>
+    <string name="mobile_number_already_registered">Mobile number already registered</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="mobile">Mobile Number</string>
+    <string name="first_name_small">First Name</string>
+    <string name="last_name_small">Last Name</string>
+    <string name="empty_bookings">You have no Bookings Available</string>
+    <string name="no_email_error_fb">There is no email attached with this Account Kindly try with some other account</string>
+    <string name="address">Address</string>
+    <string name="addressdot">Address:</string>
+    <string name="all_providers">All Providers</string>
+    <string name="summary">Summary:</string>
+    <string name="other_service">Other Service:</string>
+    <string name="reviews">Reviews:</string>
+    <string name="service">Service</string>
+    <string name="price_per">PRICE/HR</string>
+    <string name="by_user">by user</string>
+    <string name="by_provider">by provider</string>
+
+    <string name="billing_name_head">Billing Name:</string>
+    <string name="booking_id_head">Booking ID:</string>
+    <string name="date_and_time">Date and Time :</string>
+    <string name="address_head">Address :</string>
+    <string name="price_head">Price :</string>
+    <string name="service_head">Service:</string>
+    <string name="track">Track</string>
+    <string name="cancel">Cancel</string>
+    <string name="working">Working in progress</string>
+    <string name="distance">Distance</string>
+    <string name="away_from">away from you</string>
+    <string name="minutes_to_reach">to reach you</string>
+    <string name="read_more">Read More . . . .</string>
+    <string name="service_booked">Service Booked</string>
+    <string name="service_accepted">Service Accepted</string>
+    <string name="provider_arrived">Provider Arrived</string>
+    <string name="job_started">Job Started</string>
+    <string name="job_completed">Job Completed</string>
+    <string name="cancelled_by_user">Cancelled by user</string>
+    <string name="cancelled_by_provider">Cancelled by Provider</string>
+    <string name="service_rejected">Service Rejected</string>
+    <string name="rating">Rating</string>
+    <string name="start_to_customer_place">Started to customer Place</string>
+    <string name="booking_status">Booking Status :</string>
+    <string name="profile">Profile</string>
+    <string name="there_is_no">There is no time slots available at selected date.</string>
+    <string name="hours">Hours</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="verification_text">Enter your email to receive a verification code</string>
+    <string name="continue_withou">Continue without login</string>
+    <string name="date_and_time_text">DATE &amp; TIME</string>
+    <string name="time_and_address">Time and Address</string>
+    <string name="select_categpry">Select a Provider</string>
+    <string name="sign_in_with">or sign in with:</string>
+    <string name="dont_have_account">Don\'t have an account?</string>
+    <string name="forgot_password_text">Forgot Password?</string>
+    <string name="create_account">Create new account</string>
+    <string name="udx">udx</string>
+    <string name="sub_category">Sub Category</string>
+    <string name="tracking">Tracking</string>
+    <string name="thank_you">THANK YOU</string>
+    <string name="confirmation_text">Your booking request is sent to the provider. Kindly await confirmation.</string>
+    <string name="add_new_address">Add new address</string>
+    <string name="payment_confirmation">PAYMENT CONFIRMATION</string>
+    <string name="unable_to_select_image">Unable to select image</string>
+    <string name="photographer">Photographer</string>
+    <string name="interior_design">Interior Design</string>
+    <string name="beautician">Beautician</string>
+    <string name="text_two">Get the best wedding photographer near you and capture your special day to cherish later.</string>
+    <string name="text_three">Transform your house/office into your dream place with our interior design experts.</string>
+    <string name="text_four">Do you want to look great on a special occasion. Hire the best beautician in town.</string>
+    <string name="choose_your_option">Choose your option</string>
+    <string name="gallery">Gallery</string>
+    <string name="camera">Camera</string>
+    <string name="bookings">Bookings</string>
+    <string name="home">Home</string>
+    <string name="account">Account</string>
+    <string name="selected_card">Selected Card: </string>
+    <string name="selected_card_sample">4242 4242 4242 4242 4242</string>
+    <string name="change">Change</string>
+    <string name="add_card_text">Add Card</string>
+    <string name="please_select_any_card">Please Select any one of the card</string>
+    <string name="changeTheme">Change Theme</string>
+    <string name="todo">todo</string>
+    <string name="confirm_booking">CONFIRM BOOKING</string>
+    <string name="address_caps">ADDRESS</string>
+    <string name="enter_password">Please Enter Password</string>
+    <string name="enter_confirmpassword">Please Enter Confirm Password</string>
+    <string name="password_not_match">Password and confirm Password must be same</string>
+    <string name="password_must_be_six">Password must be minimum six characters</string>
+    <string name="book_now">BOOK NOW</string>
+    <string name="hello">Hello!</string>
+    <string name="guest">Guest</string>
+    <string name="want_change_theme">Are you sure you want to change the theme?</string>
+    <string name="permission_denied">Permission denied</string>
+    <string name="image_failed">Image Upload failed</string>
+
+    <string name="chat">Chat</string>
+    <string name="write_a_message">Write a message</string>
+    <string name="message">Message</string>
+    <string name="inbox">Inbox</string>
+    <string name="hi_hello">Hi, Hello</string>
+    <string name="_08_45am">08.45 Am</string>
+
+    <string name="waiting_for_internet">Waiting for Internet</string>
+    <string name="connecting">Connected</string>
+
+    <string name="enter_km_to_search">Enter Maximum miles to search</string>
+    <string name="search_provider">Search Provider</string>
+    <string name="cancel_search">Cancel Search</string>
+    <string name="no_provider_found">No Provider Found</string>
+    <string name="you_need_to_search_again">Would you like to search again?</string>
+    <string name="looking_for">Looking for</string>
+    <string name="choose_provider">Choose Provider</string>
+    <string name="or">Or</string>
+
+
+    <string name="coupons_sample">FREE30</string>
+    <string name="coupons">Enter Coupons</string>
+    <string name="apply_coupon">Apply Coupon</string>
+    <string name="coupon_no">Enter a Coupon</string>
+    <string name="random_provider">OFFER JOB OUT TO LOCAL PROVIDERS</string>
+    <string name="coupon_discount">Coupon Discount</string>
+    <string name="no_offers">0.00</string>
+    <string name="grandTotal">Grand Total</string>
+    <string name="currency_symbol">₦</string>
+    <string name="percentage_symbol">%</string>
+    <string name="minus_symbol">-</string>
+
+    <string name="provider_found">Provider has accepted your request</string>
+
+
+    <string name="before_service">Before Service</string>
+    <string name="after_service">After Service</string>
+    <string name="get_receipts">Get Receipts</string>
+
+
+    <string name="booking_id_s">Booking Id: </string>
+    <string name="booking_id_sample">UX234IZC</string>
+    <string name="tell_us_about_the_service">Tell us about the service?</string>
+    <string name="please_wait">Please wait…</string>
+    <string name="change_address">Change Address</string>
+
+    <string name="enter_address">Enter Custom address</string>
+    <string name="custom_address">Select to add Custom address</string>
+    <string name="time_out_error">Time Out Error.. Please Try Again..</string>
+    <string name="no_internet_connection">No Internet Connection.. Please Try Again..</string>
+    <string name="session_expired">Session Expired. Login to continue</string>
+    <string name="server_error">Server Error.. Please Try Again..</string>
+    <string name="network_error">Network Error.. Please Try Again..</string>
+    <string name="parsing_error">Parse Error.. Please Try Again..</string>
+    <string name="image">Image</string>
+    <string name="empty_chat">You have no messages</string>
+    <string name="billing_details">Billing Details</string>
+    <string name="close">Close</string>
+    <string name="search_for_area">Search for Location</string>
+    <string name="enterthplace">Enter the place</string>
+    <string name="address_not_found">Please enter a valid address</string>
+    <string name="not_a_valid_address">Not a valid address</string>
+
+    <string name="ok">Ok</string>
+    <string name="receipt_downloaded">Receipt download completed</string>
+
+    <string name="attention">Attention !</string>
+    <string name="sure">HI ! Your Account Has Been Suspended By Admin.
+                        For Further Information\n Please Contact admin@jobfizzer.com</string>
+
+    <integer name="activity_transition_duration">300</integer>
+
+
+</resources>

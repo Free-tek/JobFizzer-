@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:layout_width="match_parent"
+        android:id="@+id/refreshLayout"
+        android:layout_height="match_parent">
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <FrameLayout
+                    android:id="@+id/frame"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp">
+
+                    <com.lsjwzh.widget.recyclerviewpager.RecyclerViewPager
+                        android:id="@+id/viewpager"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:clipToPadding="false"
+                        android:paddingLeft="38dp"
+                        android:paddingRight="38dp" />
+
+                    <android.support.v4.view.ViewPager
+                        android:id="@+id/dviewpager"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:visibility="gone">
+
+                    </android.support.v4.view.ViewPager>
+
+                    <com.rd.PageIndicatorView
+                        android:id="@+id/circleIndicator"
+                        android:layout_width="wrap_content"
+                        android:layout_height="15dp"
+                        android:layout_gravity="bottom|center_horizontal"
+                        android:layout_marginBottom="30dp"
+                        android:visibility="gone"
+                        app:piv_animationType="none"
+                        app:piv_dynamicCount="true"
+                        app:piv_interactiveAnimation="false"
+                        app:piv_radius="3dp"
+                        app:piv_selectedColor="@color/white"
+                        app:piv_unselectedColor="@color/black"
+                        app:piv_viewPager="@id/dviewpager">
+
+                    </com.rd.PageIndicatorView>
+
+
+                </FrameLayout>
+
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/categoriesView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/frame"
+                    android:layout_marginBottom="10dp"
+                    android:nestedScrollingEnabled="false">
+
+                </android.support.v7.widget.RecyclerView>
+
+            </RelativeLayout>
+        </android.support.v4.widget.NestedScrollView>
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+
+</RelativeLayout>

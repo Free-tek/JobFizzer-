@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            fontPath="fonts/Ubuntu-Medium.ttf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="⬤ Summary"
+            android:textColor="#1d1d1d"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/summaryContent"
+            fontPath="fonts/Ubuntu-Regular.ttf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:padding="5dp"
+            android:text="Living in the modern times is a blessing in many ways. When we look back at the way our ancestors lived, we certainly feel grateful about the various developments and innovations in technology. Science is indeed a marvellous field."
+            android:textSize="14sp" />
+
+        <TextView
+            fontPath="fonts/Ubuntu-Medium.ttf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="⬤ Pricing"
+            android:textColor="#1d1d1d"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/priceContent"
+            fontPath="fonts/Ubuntu-Regular.ttf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:padding="5dp"
+            android:text=" ₦500 per hour"
+            android:textSize="14sp" />
+    </LinearLayout>
+</LinearLayout>

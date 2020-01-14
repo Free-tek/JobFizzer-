@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00000000"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="-10dp"
+        app:cardCornerRadius="15dp"
+        app:contentPadding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <FrameLayout
+                android:layout_width="100dp"
+                android:layout_height="100dp">
+
+                <com.app.jobfizzer.Utilities.helpers.CustomLibraries.CircleImageView
+                    android:id="@+id/payConfImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@color/light_violet"
+                    android:visibility="gone" />
+
+                <com.app.jobfizzer.Utilities.helpers.CustomLibraries.CircleImageView
+                    android:id="@+id/paymentConfirmed"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/white_done"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/paymentWaiting"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:padding="5dp"
+                    android:src="@drawable/ok"
+                    android:tint="?colorPrimary" />
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/payConfText"
+                fontPath="fonts/Ubuntu-Regular.ttf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="40dp"
+                android:gravity="center"
+                android:text="@string/thanks_for"
+                android:textColor="#1d1d1d"
+                android:textSize="20sp" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/confirm"
+                android:layout_width="250dp"
+                android:layout_height="45dp"
+                android:layout_marginBottom="40dp"
+                android:background="@drawable/button"
+                android:text="@string/okay"
+                android:textColor="@color/white"
+                app:backgroundTint="?colorPrimary" />
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

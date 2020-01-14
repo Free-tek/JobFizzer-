@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="MissingPrefix">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:orientation="vertical"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:id="@+id/textView"
+                fontPath="fonts/Ubuntu-Regular.ttf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/create_account"
+                android:textColor="#1d1d1d"
+                android:textSize="18sp" />
+
+
+            <com.app.jobfizzer.Utilities.helpers.CustomLibraries.CircleImageView
+                android:id="@+id/profilePic"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:baselineAligned="false"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="50">
+
+                    <EditText
+                        android:id="@+id/firstNameEditText"
+                        fontPath="fonts/Ubuntu-Regular.ttf"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:background="@null"
+                        android:hint="@string/first_name"
+                        android:imeOptions="actionNext"
+                        android:maxLength="15"
+                        android:padding="10dp"
+                        android:singleLine="true"
+                        android:textColor="@color/text_colour"
+                        android:textColorHint="@color/text_colour_light"
+                        android:textSize="15sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="50">
+
+                    <EditText
+                        android:id="@+id/lastNameEditText"
+                        fontPath="fonts/Ubuntu-Regular.ttf"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:background="@null"
+                        android:hint="@string/last_name"
+                        android:imeOptions="actionNext"
+                        android:maxLength="15"
+                        android:padding="10dp"
+                        android:singleLine="true"
+                        android:textColor="@color/text_colour"
+                        android:textColorHint="@color/text_colour_light"
+                        android:textSize="15sp" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0.5dp"
+                    android:layout_gravity="start"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:background="@color/text_colour_light" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0.5dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:background="@color/text_colour_light" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/emailEditText"
+                fontPath="fonts/Ubuntu-Regular.ttf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@null"
+                android:hint="@string/email"
+                android:imeOptions="actionNext"
+                android:inputType="textEmailAddress"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textColor="@color/text_colour"
+                android:textColorHint="@color/text_colour_light"
+                android:textSize="15sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/text_colour_light" />
+
+
+            <EditText
+                android:id="@+id/phoneEditText"
+                fontPath="fonts/Ubuntu-Regular.ttf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@null"
+                android:hint="@string/phone"
+                android:imeOptions="actionNext"
+                android:inputType="number"
+                android:maxLength="15"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textColor="@color/text_colour"
+                android:textColorHint="@color/text_colour_light"
+                android:textSize="15sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/text_colour_light" />
+
+            <EditText
+                android:id="@+id/passwordEditText"
+                fontPath="fonts/Ubuntu-Regular.ttf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@null"
+                android:hint="@string/password"
+                android:imeOptions="actionDone"
+                android:inputType="textPassword"
+                android:maxLength="15"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textColor="@color/text_colour"
+                android:textColorHint="@color/text_colour_light"
+                android:textSize="15sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/text_colour_light" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/signUpButton"
+                fontPath="fonts/Ubuntu-Medium.ttf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button"
+                android:text="@string/signup"
+                android:textAllCaps="false"
+                android:textColor="#FFF"
+                app:backgroundTint="?colorPrimary" />
+
+            <com.facebook.login.widget.LoginButton
+                android:id="@+id/loginFbButton"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:visibility="visible" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:visibility="visible">
+
+                <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/facebookLoginButton"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:layout_marginRight="10dp">
+
+                    <ImageButton
+                        android:id="@+id/facebookLogin"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/circular_button"
+                        android:padding="18dp"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/facebook" />
+
+                </FrameLayout>
+
+                <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp">
+
+                    <ImageButton
+                        android:id="@+id/googleLogin"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/circular_button"
+                        android:padding="18dp"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/google" />
+
+                </FrameLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/alreadyHaveAnAccount"
+                fontPath="fonts/Ubuntu-Regular.ttf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="#0000"
+                android:gravity="center_horizontal"
+                android:text="@string/alread_have_an"
+                android:textAllCaps="false"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:gravity="center"
+    android:layout_height="wrap_content">
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:id="@+id/selected_round"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_gravity="end"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:elevation="50dp">
+
+            <com.app.jobfizzer.Utilities.helpers.CustomLibraries.CircleImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@color/blue" />
+
+
+            <com.app.jobfizzer.Utilities.helpers.CustomLibraries.CircleImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="2dp"
+                android:src="@drawable/white_done" />
+        </FrameLayout>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="90dp"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="10dp">
+
+            <ImageView
+                android:id="@+id/selected_border"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:src="@drawable/blue_corner" />
+
+            <ImageView
+                android:id="@+id/paymentIcon"
+                android:layout_width="45dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:src="@drawable/blue_card" />
+
+        </android.support.v7.widget.CardView>
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="@string/payment_method"
+        android:id="@+id/paymentName"
+        android:padding="3dp"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

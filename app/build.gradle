@@ -1,0 +1,119 @@
+buildscript {
+    repositories {
+        maven { url 'https://maven.fabric.io/public' }
+    }
+
+    dependencies {
+        classpath 'io.fabric.tools:gradle:1.+'
+    }
+}
+apply plugin: 'com.android.application'
+apply plugin: 'io.fabric'
+
+repositories {
+    maven { url 'https://maven.fabric.io/public' }
+}
+
+
+android {
+    signingConfigs {
+        config {
+            keyAlias 'uberdoox'
+            keyPassword 'uberdoox'
+            storePassword 'uberdoox'
+            storeFile file('E:/Mahesh files\'s/App\'s/UbderDoo/BaseBuild Change/jobfizzer/app/uberdoox.jks')
+        }
+    }
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "com.app.jobfizzer"
+        minSdkVersion 17
+        targetSdkVersion 28
+        versionCode 35
+        versionName "1.33"
+        multiDexEnabled true
+        renderscriptTargetApi 19
+        renderscriptSupportModeEnabled true
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        buildConfigField "String", "BASE_URL", base_url
+        buildConfigField "String", "SOCKET_URL", socket_url
+        buildConfigField "String", "CHAT_SOCKET_URL", chat_socket_url
+        resValue "string", "FB_APP_ID", facebook_app_id
+        resValue "string", "FB_PROTOCOL_SCHEME", facebook_protocol_scheme
+        resValue "string", "STRIPE_KEY", stripe_key
+        resValue "string", "GOOGLE_MAPS_KEY", google_maps_key
+    }
+    dexOptions {
+        javaMaxHeapSize "4g"
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.config
+        }
+    }
+    aaptOptions {
+        cruncherEnabled = false
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    implementation('io.socket:socket.io-client:0.8.3') {
+        exclude group: 'org.json', module: 'json'
+    }
+    implementation 'com.facebook.android:facebook-android-sdk:4.29.0'
+    implementation 'com.android.support:multidex:1.0.3'
+    implementation 'com.google.firebase:firebase-messaging:17.3.4'
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'com.android.support:customtabs:28.0.0'
+    implementation 'de.hdodenhof:circleimageview:2.2.0'
+    implementation 'com.google.android.gms:play-services-plus:16.0.0'
+    implementation 'com.google.android.gms:play-services-auth:16.0.1'
+    implementation 'me.relex:circleindicator:1.2.2@aar'
+    implementation 'com.github.devlight.navigationtabstrip:navigationtabstrip:1.0.4'
+    implementation 'com.loopeer.lib:shadow:0.0.3'
+    implementation 'uk.co.chrisjenx:calligraphy:2.3.0'
+    implementation 'com.squareup.okhttp3:okhttp:3.10.0'
+    implementation 'com.mcxiaoke.volley:library:1.0.19'
+    implementation 'com.leinardi.android:speed-dial:2.0.0'
+    implementation 'com.stripe:stripe-android:6.1.1'
+    implementation 'com.google.android.gms:play-services-location:16.0.0'
+    implementation 'com.android.support:design:28.0.0'
+    implementation 'com.android.support:support-v4:28.0.0'
+    implementation 'com.android.support:cardview-v7:28.0.0'
+    implementation 'com.koushikdutta.ion:ion:2.2.1'
+    implementation 'com.github.mmin18:realtimeblurview:1.1.2'
+    implementation 'com.github.bumptech.glide:glide:4.8.0'
+    implementation 'com.google.android.gms:play-services-maps:16.0.0'
+    implementation 'com.yarolegovich:discrete-scrollview:1.3.0'
+    implementation 'com.makeramen:roundedimageview:2.3.0'
+    implementation 'org.greenrobot:eventbus:3.1.1'
+    implementation 'com.romandanylyk:pageindicatorview:0.2.0'
+    implementation 'com.squareup.picasso:picasso:2.5.2'
+    implementation 'io.reactivex:rxandroid:1.2.1'
+    implementation 'io.reactivex:rxjava:1.3.0'
+    implementation 'com.google.code.gson:gson:2.8.2'
+    implementation 'com.squareup.retrofit2:adapter-rxjava:2.3.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.4.0'
+    /* Used to debug your Retrofit connections */
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.9.0'
+    implementation 'com.github.lsjwzh.RecyclerViewPager:lib:v1.1.2@aar'
+    //custom class created
+    //    compile 'com.skyfishjy.ripplebackground:library:1.0.1'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    testImplementation 'junit:junit:4.12'
+    implementation('com.crashlytics.sdk.android:crashlytics:2.8.0@aar') {
+        transitive = true;
+    }
+    //LIFECYCLE
+    implementation 'android.arch.lifecycle:extensions:1.1.1'
+    implementation 'android.arch.lifecycle:viewmodel:1.1.1'
+    implementation 'com.github.ybq:Android-SpinKit:1.2.0'
+}
+apply plugin: 'com.google.gms.google-services'

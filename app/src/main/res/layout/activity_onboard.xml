@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="MissingPrefix"
+    android:orientation="vertical">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/onBoardPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.app.jobfizzer.Utilities.helpers.CustomLibraries.CircleIndicator
+        android:id="@+id/indicator"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_above="@+id/skipLogin" />
+
+    <Button
+        android:id="@+id/skipLogin"
+        fontPath="fonts/Ubuntu-Medium.ttf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bottomButtons"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/white_corner"
+        android:text="@string/continue_withou"
+        />
+
+    <LinearLayout
+        android:id="@+id/bottomButtons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/signIn"
+            fontPath="fonts/Ubuntu-Regular.ttf"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:background="#0000"
+            android:text="@string/sign_in"
+            android:textColor="#FFF" />
+
+        <Button
+            android:id="@+id/signUp"
+            fontPath="fonts/Ubuntu-Regular.ttf"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:background="#0000"
+            android:text="@string/signup"
+            android:textColor="#FFF" />
+    </LinearLayout>
+</RelativeLayout>

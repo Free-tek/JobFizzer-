@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="250dp"
+    android:layout_height="190dp"
+
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rootLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        app:backgroundTint="?colorPrimary"
+        android:background="@drawable/bg_selected"
+        android:gravity="center">
+
+        <RelativeLayout
+            android:id="@+id/rootLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="3dp"
+            android:background="@color/white"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/title"
+                fontPath="fonts/Ubuntu-Bold.ttf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Home"
+                android:textColor="@color/dark_violet"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/address"
+                fontPath="fonts/Ubuntu-Regular.ttf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/title"
+                android:padding="3dp"
+                android:text="No.19d Kavarai Street, 1st street" />
+
+            <TextView
+                android:id="@+id/location"
+                fontPath="fonts/Ubuntu-Regular.ttf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/address"
+                android:padding="3dp"
+                android:text="Indira ganddhi nagar, Vadapalani, chennai" />
+
+            <TextView
+                android:id="@+id/city"
+                fontPath="fonts/Ubuntu-Regular.ttf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/location"
+                android:padding="3dp"
+                android:text="Tamil Nadu  600 008 INdia" />
+        </RelativeLayout>
+        <!--<TextView-->
+        <!--android:layout_below="@+id/city"-->
+        <!--fontPath="fonts/Ubuntu-Regular.ttf"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="632002"-->
+        <!--android:padding="5dp"-->
+        <!--android:id="@+id/pincode"-->
+        <!--/>-->
+
+        <LinearLayout
+            android:id="@+id/addAddressView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/addresss_add"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/plus_button"
+                android:tint="?colorPrimary" />
+
+            <TextView
+                android:id="@+id/address_add_tv"
+                fontPath="fonts/Ubuntu-Regular.ttf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:padding="10dp"
+                android:text="@string/add_new_address"
+                android:textColor="?colorPrimary"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/selectedImage"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-7dp"
+        android:elevation="10dp"
+        android:padding="7dp"
+        android:src="@drawable/ok"
+        android:tint="?colorPrimary"
+        tools:targetApi="lollipop" />
+</RelativeLayout>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.app.jobfizzer.View.activities.SplashActivity"
+    tools:ignore="MissingPrefix">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitCenter"
+        android:src="@drawable/splash"
+        android:visibility="visible" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            fontPath="Ubuntu-Bold.ttf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/udx"
+            android:textColor="@color/text_colour"
+            android:textSize="50sp" />
+
+        <TextView
+            fontPath="Ubuntu-Bold.ttf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textColor="@color/text_colour"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <!--<ImageView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:src="@drawable/confetti"-->
+    <!--android:id="@+id/confetti"-->
+    <!--android:layout_alignParentRight="true"-->
+    <!--android:layout_centerInParent="true"-->
+    <!--/>-->
+    <!--<ImageView-->
+    <!--android:layout_toLeftOf="@+id/plug"-->
+    <!--android:layout_margin="10dp"-->
+    <!--android:layout_above="@+id/plug"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:src="@drawable/eye_shadows"-->
+    <!--android:id="@+id/eye_shadows"-->
+    <!--/>-->
+    <!--<ImageView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:src="@drawable/photo_camera"-->
+    <!--android:id="@+id/photo_camera"-->
+    <!--android:layout_above="@+id/paint_brush"-->
+    <!--android:layout_marginBottom="20dp"-->
+    <!--/>-->
+    <!--<ImageView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:src="@drawable/drawing"-->
+    <!--android:id="@+id/drawing"-->
+    <!--android:layout_marginRight="30dp"-->
+    <!--android:layout_toLeftOf="@id/eye_shadows"-->
+    <!--android:layout_above="@id/eye_shadows"-->
+    <!--/>-->
+    <!--<ImageView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:src="@drawable/paint_brush"-->
+    <!--android:id="@+id/paint_brush"-->
+    <!--android:layout_alignParentLeft="true"-->
+    <!--android:layout_centerInParent="true"-->
+
+    <!--/>-->
+    <!--<ImageView-->
+    <!--android:layout_alignParentRight="true"-->
+    <!--android:layout_marginBottom="30dp"-->
+    <!--android:layout_above="@+id/confetti"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:src="@drawable/plug"-->
+    <!--android:id="@+id/plug"-->
+    <!--/>-->
+    <!--<ImageView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:src="@drawable/repairing"-->
+    <!--android:id="@+id/repairing"-->
+    <!--android:layout_above="@+id/yoga"-->
+    <!--android:layout_toLeftOf="@+id/drawing"-->
+    <!--/>-->
+    <!--<ImageView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:src="@drawable/yoga"-->
+    <!--android:id="@+id/yoga"-->
+    <!--android:layout_toRightOf="@+id/photo_camera"-->
+    <!--android:layout_above="@+id/photo_camera"-->
+    <!--android:layout_marginLeft="50sp"-->
+    <!--/>-->
+    <!--<ImageView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:id="@+id/bottomWorld"-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--android:layout_marginLeft="-150dp"-->
+    <!--android:layout_marginRight="-150dp"-->
+    <!--android:layout_marginBottom="-1020dp"-->
+    <!--android:src="@drawable/earth"-->
+    <!--/>-->
+    <!--<TextView-->
+    <!--android:id="@+id/uberdoox"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="UberDoo X"-->
+    <!--android:textSize="30sp"-->
+    <!--fontPath="fonts/Ubuntu-Medium.ttf"-->
+    <!--android:layout_alignBottom="@+id/photo_camera"-->
+    <!--android:layout_toStartOf="@+id/eye_shadows" />-->
+</RelativeLayout>

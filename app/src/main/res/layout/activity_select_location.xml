@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.app.jobfizzer.com.app.uberdooX.activities.SelectLocationActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/location_bg" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/centerText"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/location" />
+
+    <TextView
+        android:id="@+id/centerText"
+        fontPath="fonts/Ubuntu-Regular.ttf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:gravity="center"
+        android:text="@string/tell_us_your_place"
+        android:textSize="23sp" />
+
+    <TextView
+        fontPath="fonts/Ubuntu-Regular.ttf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bottomView"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:text="@string/use_my_current_location"
+        android:textSize="15sp" />
+
+    <RelativeLayout
+        android:id="@+id/bottomView"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_alignParentBottom="true"
+        android:background="#F4F4F4">
+
+        <View
+            android:id="@+id/blackView"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/button" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignEnd="@+id/blackView"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/drop_down" />
+
+        <TextView
+            fontPath="fonts/Ubuntu-Regular.ttf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/blackView"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:text="Chennai"
+            android:textColor="#FFF"
+            android:textSize="20sp" />
+    </RelativeLayout>
+</RelativeLayout>

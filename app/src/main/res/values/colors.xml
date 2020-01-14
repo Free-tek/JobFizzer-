@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#000000</color>
+
+    <color name="button_color">#F4F4F4</color>
+    <color name="black_alpha">#441d1d1d</color>
+    <color name="black">#1d1d1d</color>
+    <color name="invoice_grey_heading">#707070</color>
+    <color name="invoice_grey">#F8F8F8</color>
+    <color name="white">#ffffff</color>
+    <color name="trans_white_80">#f2f2f2</color>
+    <color name="trans_white_50">#f9f9f9</color>
+    <color name="blue">#3396DD</color>
+    <color name="transparent">#00000000</color>
+    <color name="grey">#9E9E9E</color>
+    <color name="grey2">#dfdfdf</color>
+    <color name="red">#d93b39</color>
+    <color name="text_colour">#343548</color>
+    <color name="text_colour_light">#401d1d1d</color>
+    <color name="duskYellow">#fac917</color>
+    <color name="ratingColor">#ffeb3b</color>
+    <color name="light_grey">#eeeeee</color>
+
+    <color name="dark_violet">#343548</color>
+
+    <color name="new_grey">#95989A</color>
+    <color name="green">#19c47e</color>
+    <color name="light_grey_bg">#f7f7f8</color>
+    <color name="status_orange">#e24f21</color>
+    <color name="white_70">#B3ffffff</color>
+    <color name="white_10">#0Dffffff</color>
+
+
+    <color name="d_teal">#008080</color>
+
+    <color name="fb_messenger">#FF3F34</color>
+    <color name="fb_connect">#008CFF</color>
+
+    <!--first-->
+    <color name="light_violet">#6B7FFC</color>
+    <color name="violet_dark">#5363C5</color>
+
+
+    <!--second-->
+    <color name="themepink">#FC6BB4</color>
+    <color name="themepinkdark">#CC5290</color>
+
+    <!--  &lt;!&ndash;third&ndash;&gt;
+      <color name="themeblue">#6BB4FC</color>
+      <color name="themebluedark">#558FC9</color>-->
+
+
+    <!--  &lt;!&ndash;fourth&ndash;&gt;
+      <color name="themeyellow">#FCE96B</color>
+      <color name="themeyellowdark">#D8C85B</color>-->
+
+    <color name="themeblue">#303A52</color>
+    <color name="themebluedark">#232b3d</color>
+
+    <color name="themeyellow">#36D1C4</color>
+    <color name="themeyellowdark">#238b82</color>
+
+
+    <!--<color name="themeye2eellow">#29C6CD</color>
+    <color name="themeyel2ldowdark">#D8C85B</color>-->
+
+
+    <!--fifth-->
+    <color name="themeindigo">#A56BFC</color>
+    <color name="themeindigodark">#8853D9</color>
+
+
+    <!--sixth-->
+    <color name="themered">#FC6B6B</color>
+    <color name="themereddark">#D15858</color>
+
+
+    <!-- <color name="themeorange">#e67e22</color>
+     <color name="themeorangedark">#b3631b</color>
+
+     &lt;!&ndash;seventh&ndash;&gt;
+     <color name="themepurple">#897fba</color>
+     <color name="themepurpledark">#655d89</color>
+
+     &lt;!&ndash;eigth&ndash;&gt;
+     <color name="themepalegreen">#7bb0a6</color>
+     <color name="themepalegreendark">#5d847d</color>
+
+     &lt;!&ndash;ninth&ndash;&gt;
+     <color name="themelightblue">#67bdff</color>
+     <color name="themelightbluedark">#5396c9</color>
+
+     &lt;!&ndash;tenth&ndash;&gt;
+     <color name="themepink">#000000</color>
+     <color name="themepinkdark">#000000</color>
+
+     &lt;!&ndash;eleventh&ndash;&gt;
+     <color name="themelightgreen">#4ae2dd</color>
+     <color name="themelightgreendark">#35afab</color>-->
+
+
+</resources>

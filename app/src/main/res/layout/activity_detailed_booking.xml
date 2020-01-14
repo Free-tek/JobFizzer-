@@ -1,0 +1,1176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_detailed_booking"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:ignore="MissingPrefix">
+
+
+    <FrameLayout
+        android:id="@+id/frameLay"
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+
+
+        <ImageView
+            android:id="@+id/mapData"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/samplemap" />
+
+        <ImageView
+
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            android:src="@drawable/concentric_circle"
+            android:tint="?colorPrimary" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.1"
+            android:background="?colorPrimary" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:src="@drawable/white_top_gradient" />
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="bottom"
+            android:src="@drawable/white_bottom_gradient" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:elevation="5dp"
+            android:gravity="center"
+            android:paddingTop="5dp"
+            android:paddingBottom="10dp"
+            tools:targetApi="lollipop">
+
+            <Button
+                android:id="@+id/statusBackground"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/violet_corner"
+                android:singleLine="true"
+                android:textSize="10sp"
+                android:textColor="@color/white"
+                app:backgroundTint="?colorPrimary" />
+        </LinearLayout>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="-5dp"
+            android:visibility="gone"
+            app:cardBackgroundColor="?colorPrimary"
+            app:cardCornerRadius="5dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_toRightOf="@+id/text"
+                    android:src="@drawable/cancel_icon"
+                    android:tint="@color/white" />
+
+
+                <TextView
+
+                    android:id="@+id/text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/cancel"
+
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/topBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/backButton"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:id="@+id/serviceName"
+            fontPath="fonts/Ubuntu-Medium.ttf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="Order Details"
+            android:textColor="@color/text_colour"
+            android:textSize="20sp"
+            android:visibility="visible" />
+    </RelativeLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/frameLay"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:orientation="vertical"
+
+            android:paddingBottom="100dp">
+
+
+            <RelativeLayout
+                android:id="@+id/topBillingLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <TextView
+                            fontPath="fonts/Ubuntu-Medium.ttf"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/hours"
+                            android:textColor="@color/text_colour"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/hoursValue"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/hours"
+                            android:textColor="?colorPrimary"
+                            android:textSize="14sp" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="0.5dp"
+                        android:layout_height="match_parent"
+                        android:alpha="0.2"
+                        android:background="@color/new_grey" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical"
+                        android:visibility="gone">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/taxName"
+                                fontPath="fonts/Ubuntu-Medium.ttf"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/gst"
+                                android:textColor="@color/text_colour"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:id="@+id/taxPercentage"
+                                fontPath="fonts/Ubuntu-Medium.ttf"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:text="@string/gst"
+                                android:textColor="@color/text_colour"
+                                android:textSize="16sp" />
+
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/bookingGst"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:text="@string/provider_name"
+                            android:textColor="?colorPrimary"
+                            android:textSize="14sp" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <TextView
+                            fontPath="fonts/Ubuntu-Medium.ttf"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/total"
+                            android:textColor="@color/text_colour"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/totalCostandTime"
+                            fontPath="fonts/Ubuntu-Regular.ttf"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Karyhik"
+                            android:textColor="?colorPrimary"
+                            android:textSize="14dp" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="0.5dp"
+                        android:layout_height="match_parent"
+                        android:alpha="0.2"
+                        android:background="@color/new_grey" />
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/id_imgbtn_receipt"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_margin="5dp"
+                            android:background="@drawable/ic_payment"
+                            android:gravity="center" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="0.5dp"
+                        android:layout_height="match_parent"
+                        android:alpha="0.2"
+                        android:background="@color/new_grey" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:alpha="0.2"
+                android:background="@color/new_grey" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/statusTextValue"
+                    fontPath="fonts/Ubuntu-Medium.ttf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="@string/booking_status"
+                    android:textColor="@color/text_colour"
+                    android:textSize="16sp" />
+
+
+                <TextView
+                    android:id="@+id/statusText"
+                    fontPath="fonts/Ubuntu-Regular.ttf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/statusTextValue"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="5dp"
+                    android:gravity="right"
+                    android:text="Karyhik"
+
+                    android:textColor="@color/text_colour"
+                    android:textSize="16sp" />
+
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/billingText"
+                    fontPath="fonts/Ubuntu-Medium.ttf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="@string/billing_name_head"
+                    android:textColor="@color/text_colour" />
+
+                <TextView
+                    android:id="@+id/billingName"
+                    fontPath="fonts/Ubuntu-Regular.ttf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/billingText"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="5dp"
+                    android:gravity="right"
+                    android:text="Karyhik"
+                    android:textColor="@color/text_colour" />
+
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:alpha="0.2"
+                android:background="@color/new_grey" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/booking_id_text"
+                    fontPath="fonts/Ubuntu-Medium.ttf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:gravity="left"
+                    android:text="@string/booking_id_head"
+                    android:textColor="@color/text_colour" />
+
+                <TextView
+                    android:id="@+id/bookingId"
+                    fontPath="fonts/Ubuntu-Regular.ttf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/booking_id_text"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="5dp"
+                    android:gravity="right"
+                    android:text="ID-546565"
+                    android:textColor="@color/text_colour" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:alpha="0.2"
+                android:background="@color/new_grey" />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/booking_date_text"
+                    fontPath="fonts/Ubuntu-Medium.ttf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:gravity="left"
+                    android:text="@string/date_and_time"
+                    android:textColor="@color/text_colour" />
+
+                <TextView
+                    android:id="@+id/bokkingDate"
+                    fontPath="fonts/Ubuntu-Regular.ttf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/booking_date_text"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="5dp"
+                    android:gravity="right"
+                    android:text="12-06-2017"
+                    android:textColor="@color/text_colour" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:alpha="0.2"
+                android:background="@color/new_grey" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/address_text"
+                    fontPath="fonts/Ubuntu-Medium.ttf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:gravity="left"
+                    android:text="@string/address_head"
+                    android:textColor="@color/text_colour" />
+
+                <TextView
+                    android:id="@+id/bookingAddress"
+                    fontPath="fonts/Ubuntu-Regular.ttf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/address_text"
+                    android:layout_marginTop="5dp"
+                    android:text="No.19 d, Kavarai Street,Vadapalani,Chennai-26"
+                    android:textColor="@color/text_colour" />
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:id="@+id/billLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:alpha="0.2"
+                    android:background="@color/new_grey" />
+
+
+                <RelativeLayout
+                    android:id="@+id/bookingPrice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/price_text"
+                        fontPath="fonts/Ubuntu-Medium.ttf"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:gravity="left"
+                        android:text="@string/price_head"
+                        android:textColor="@color/text_colour" />
+
+                    <TextView
+                        android:id="@+id/pricePerhour"
+                        fontPath="fonts/Ubuntu-Regular.ttf"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/price_text"
+                        android:layout_gravity="right"
+                        android:layout_marginTop="5dp"
+                        android:gravity="right"
+                        android:text=" ₦10/HR"
+                        android:textColor="@color/text_colour" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:alpha="0.2"
+                    android:background="@color/new_grey" />
+
+
+            </LinearLayout>
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:orientation="vertical"
+                tools:context="com.app.jobfizzer.com.app.uberdooX.activities.ProviderProfileActivity">
+
+
+                <TextView
+                    fontPath="fonts/Ubuntu-Regular.ttf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp"
+                    android:gravity="left"
+                    android:text="@string/service_head"
+                    android:textColor="@color/text_colour" />
+
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+
+                    android:orientation="vertical"
+                    tools:context="com.app.jobfizzer.com.app.uberdooX.activities.ProviderProfileActivity">
+
+                    <LinearLayout
+                        android:id="@+id/layOne"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="1">
+
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.15"
+
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginTop="15dp"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:id="@+id/timeOne"
+                                    android:layout_width="15dp"
+                                    android:layout_height="15dp"
+                                    android:src="@drawable/circle_violeet_transparent"
+                                    android:tint="?colorPrimary" />
+
+                                <View
+                                    android:id="@+id/viewOne"
+                                    android:layout_width="2dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_below="@+id/timeOne"
+                                    android:background="?colorPrimary" />
+                            </LinearLayout>
+
+                        </RelativeLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.85"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="10dp">
+
+                            <com.loopeer.shadow.ShadowView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginRight="40dp"
+                                android:layout_marginBottom="5dp"
+
+                                app:cornerRadius="8dp"
+                                app:shadowColor="#1A000000"
+                                app:shadowMargin="10dp"
+                                app:shadowRadius="25dp">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="15dp"
+                                    android:layout_marginTop="15dp"
+                                    android:layout_marginRight="20dp"
+                                    android:layout_marginBottom="15dp"
+                                    android:background="@color/transparent">
+
+                                    <TextView
+                                        android:id="@+id/textOne"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent" />
+
+
+                                </LinearLayout>
+
+                            </com.loopeer.shadow.ShadowView>
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/layTwo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="1">
+
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.15"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <View
+                                    android:id="@+id/viewTwo"
+                                    android:layout_width="2dp"
+                                    android:layout_height="30dp"
+                                    android:layout_below="@+id/timeTwo"
+                                    android:background="?colorPrimary" />
+
+
+                                <ImageView
+                                    android:id="@+id/timeTwo"
+                                    android:layout_width="15dp"
+                                    android:layout_height="15dp"
+                                    android:src="@drawable/circle_violeet_transparent"
+                                    android:tint="?colorPrimary" />
+
+                                <View
+                                    android:id="@+id/viewThree"
+                                    android:layout_width="2dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_below="@+id/timeOne"
+                                    android:background="?colorPrimary" />
+                            </LinearLayout>
+
+                        </RelativeLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.85"
+
+                            android:gravity="center_vertical"
+                            android:paddingLeft="10dp">
+
+                            <com.loopeer.shadow.ShadowView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginRight="40dp"
+                                android:layout_marginBottom="5dp"
+
+                                app:cornerRadius="8dp"
+                                app:shadowColor="#1A000000"
+                                app:shadowMargin="10dp"
+                                app:shadowRadius="25dp">
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="15dp"
+                                    android:layout_marginTop="15dp"
+                                    android:layout_marginRight="30dp"
+                                    android:layout_marginBottom="15dp">
+
+                                    <TextView
+                                        android:id="@+id/textTwo"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content" />
+
+
+                                </LinearLayout>
+
+                            </com.loopeer.shadow.ShadowView>
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/layThree"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="1">
+
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.15"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <View
+                                    android:id="@+id/viewFour"
+                                    android:layout_width="2dp"
+                                    android:layout_height="30dp"
+                                    android:layout_below="@+id/timeThree"
+                                    android:background="?colorPrimary" />
+
+
+                                <ImageView
+                                    android:id="@+id/timeThree"
+                                    android:layout_width="15dp"
+                                    android:layout_height="15dp"
+                                    android:src="@drawable/circle_violeet_transparent"
+                                    android:tint="?colorPrimary" />
+
+                                <View
+                                    android:id="@+id/viewFive"
+                                    android:layout_width="2dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_below="@+id/timeOne"
+                                    android:background="?colorPrimary" />
+                            </LinearLayout>
+
+                        </RelativeLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.85"
+                            android:gravity="center_vertical"
+
+                            android:paddingLeft="10dp">
+
+                            <com.loopeer.shadow.ShadowView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginRight="40dp"
+                                android:layout_marginBottom="5dp"
+
+                                app:cornerRadius="8dp"
+                                app:shadowColor="#1A000000"
+                                app:shadowMargin="10dp"
+                                app:shadowRadius="25dp">
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="15dp"
+                                    android:layout_marginTop="15dp"
+                                    android:layout_marginRight="30dp"
+                                    android:layout_marginBottom="15dp">
+
+                                    <TextView
+                                        android:id="@+id/textThree"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content" />
+
+
+                                </LinearLayout>
+
+                            </com.loopeer.shadow.ShadowView>
+
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/layFour"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="1">
+
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.15"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <View
+                                    android:id="@+id/viewSix"
+                                    android:layout_width="2dp"
+
+                                    android:layout_height="30dp"
+                                    android:layout_below="@+id/timeFour"
+                                    android:background="?colorPrimary" />
+
+
+                                <ImageView
+                                    android:id="@+id/timeFour"
+                                    android:layout_width="15dp"
+                                    android:layout_height="15dp"
+                                    android:src="@drawable/circle_violeet_transparent"
+                                    android:tint="?colorPrimary" />
+
+                                <View
+                                    android:id="@+id/viewSeven"
+                                    android:layout_width="2dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_below="@+id/timeOne"
+                                    android:background="?colorPrimary" />
+                            </LinearLayout>
+
+                        </RelativeLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.85"
+                            android:gravity="center_vertical"
+
+                            android:paddingLeft="10dp">
+
+                            <com.loopeer.shadow.ShadowView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginRight="40dp"
+                                android:layout_marginBottom="5dp"
+
+                                app:cornerRadius="8dp"
+                                app:shadowColor="#1A000000"
+                                app:shadowMargin="10dp"
+                                app:shadowRadius="25dp">
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="15dp"
+                                    android:layout_marginTop="15dp"
+                                    android:layout_marginRight="30dp"
+                                    android:layout_marginBottom="15dp">
+
+                                    <TextView
+                                        android:id="@+id/textFour"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content" />
+
+
+                                </LinearLayout>
+
+                            </com.loopeer.shadow.ShadowView>
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/layFive"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="1">
+
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.15"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <View
+                                    android:id="@+id/viewEight"
+                                    android:layout_width="2dp"
+                                    android:layout_height="30dp"
+
+                                    android:layout_below="@+id/timeFive"
+                                    android:background="?colorPrimary" />
+
+
+                                <ImageView
+                                    android:id="@+id/timeFive"
+                                    android:layout_width="15dp"
+                                    android:layout_height="15dp"
+                                    android:src="@drawable/circle_violeet_transparent"
+                                    android:tint="?colorPrimary" />
+
+                                <View
+                                    android:id="@+id/viewNine"
+                                    android:layout_width="2dp"
+                                    android:layout_height="match_parent"
+
+                                    android:layout_below="@+id/timeOne"
+
+                                    android:background="?colorPrimary" />
+                            </LinearLayout>
+
+                        </RelativeLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.85"
+                            android:gravity="center_vertical"
+
+                            android:paddingLeft="10dp">
+
+                            <com.loopeer.shadow.ShadowView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginRight="40dp"
+                                android:layout_marginBottom="5dp"
+
+                                app:cornerRadius="8dp"
+                                app:shadowColor="#1A000000"
+                                app:shadowMargin="10dp"
+                                app:shadowRadius="25dp">
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="15dp"
+                                    android:layout_marginTop="15dp"
+                                    android:layout_marginRight="30dp"
+                                    android:layout_marginBottom="15dp">
+
+                                    <TextView
+                                        android:id="@+id/textFive"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content" />
+
+
+                                </LinearLayout>
+
+                            </com.loopeer.shadow.ShadowView>
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/laySix"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="1">
+
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.15"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <View
+                                    android:id="@+id/viewTen"
+                                    android:layout_width="2dp"
+                                    android:layout_height="30dp"
+                                    android:layout_below="@+id/timeSix"
+                                    android:background="?colorPrimary" />
+
+
+                                <ImageView
+                                    android:id="@+id/timeSix"
+                                    android:layout_width="15dp"
+                                    android:layout_height="15dp"
+                                    android:src="@drawable/circle_violeet_transparent"
+                                    android:tint="?colorPrimary" />
+
+                                <View
+                                    android:id="@+id/viewEleven"
+                                    android:layout_width="2dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_below="@+id/timeOne"
+                                    android:background="?colorPrimary"
+                                    android:visibility="invisible" />
+                            </LinearLayout>
+
+                        </RelativeLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.85"
+                            android:gravity="center_vertical"
+
+                            android:paddingLeft="10dp">
+
+                            <com.loopeer.shadow.ShadowView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginRight="40dp"
+                                android:layout_marginBottom="5dp"
+
+                                app:cornerRadius="8dp"
+                                app:shadowColor="#1A000000"
+                                app:shadowMargin="10dp"
+                                app:shadowRadius="25dp">
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="15dp"
+                                    android:layout_marginTop="15dp"
+                                    android:layout_marginRight="30dp"
+                                    android:layout_marginBottom="15dp">
+
+                                    <TextView
+                                        android:id="@+id/textSix"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content" />
+
+
+                                </LinearLayout>
+
+                            </com.loopeer.shadow.ShadowView>
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+    <Button
+
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/violet_corner"
+        android:textColor="@color/white"
+        android:visibility="gone"
+        app:backgroundTint="?colorPrimary" />
+
+
+    <com.leinardi.android.speeddial.SpeedDialOverlayLayout
+        android:id="@+id/overlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:clickable_overlay="true"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+
+    <com.leinardi.android.speeddial.SpeedDialView
+        android:id="@+id/speedDial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom|end"
+        app:sdExpansionMode="top"
+        app:sdMainFabAnimationRotateAngle="0"
+        app:sdMainFabClosedBackgroundColor="?colorPrimary"
+        app:sdMainFabClosedSrc="@drawable/ic_add_white_24dp"
+        app:sdMainFabOpenedBackgroundColor="?colorPrimary"
+        app:sdMainFabOpenedSrc="@drawable/ic_pencil_alt_white_24dp"
+        app:sdOverlayLayout="@id/overlay" />
+
+</RelativeLayout>

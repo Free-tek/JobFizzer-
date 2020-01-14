@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:opacity="translucent">
+    <item
+        android:width="100dp"
+        android:height="100dp"
+        android:drawable="@color/light_grey" />
+    <item
+        android:width="40dp"
+        android:height="40dp"
+        android:gravity="center">
+        <bitmap
+            android:alpha="0.5"
+            android:src="@drawable/place_holder" />
+    </item>
+
+</layer-list>
