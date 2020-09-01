@@ -1,17 +1,11 @@
 package com.app.jobfizzer.View.activities;
 
 import android.app.Dialog;
-import android.arch.lifecycle.Observer;
-import android.arch.lifecycle.ViewModelProviders;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Build;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.annotation.RequiresApi;
-import android.support.v7.app.AlertDialog;
 import android.text.InputFilter;
 import android.util.Log;
 import android.view.Gravity;
@@ -22,6 +16,13 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.annotation.RequiresApi;
+import androidx.appcompat.app.AlertDialog;
+import androidx.lifecycle.Observer;
+import androidx.lifecycle.ViewModelProviders;
 
 import com.app.jobfizzer.Model.SignInResponseModel;
 import com.app.jobfizzer.Model.SocialSignInSuccessResponse;
@@ -43,15 +44,20 @@ import com.facebook.login.LoginManager;
 import com.facebook.login.LoginResult;
 import com.facebook.login.widget.LoginButton;
 import com.google.android.gms.auth.api.Auth;
+import com.google.android.gms.auth.api.signin.GoogleSignIn;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
+import com.google.android.gms.auth.api.signin.GoogleSignInClient;
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
 import com.google.android.gms.auth.api.signin.GoogleSignInResult;
 import com.google.android.gms.common.ConnectionResult;
+import com.google.android.gms.common.api.ApiException;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.app.jobfizzer.R;
 
 import org.json.JSONException;
 import org.json.JSONObject;
+
+import bolts.Task;
 
 /**
  * Created by karthik on 01/10/17.
@@ -59,6 +65,7 @@ import org.json.JSONObject;
 
 public class SignInActivity extends BaseActivity implements View.OnClickListener, GoogleApiClient.OnConnectionFailedListener {
     public GoogleApiClient mGoogleApiClient;
+    GoogleSignInClient mGoogleSignInClient;
     EditText usernameEditText, passwordEditText;
     Button dontHaveAnAccount, loginButton, forgotPassword;
     ImageView facebookLogin, googleLogin;
@@ -88,17 +95,29 @@ public class SignInActivity extends BaseActivity implements View.OnClickListener
     }
 
     private void initGoogleLogin() {
-        GoogleSignInOptions gso = new GoogleSignInOptions
-                .Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
-                .requestEmail().build();
+
+        GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
+                .requestEmail()
+                .build();
         mGoogleApiClient = new GoogleApiClient.Builder(this)
                 .enableAutoManage(this, this)
                 .addApi(Auth.GOOGLE_SIGN_IN_API, gso)
                 .build();
+
+
     }
 
     private void googlesignIn() {
+
+
+
         Intent signInIntent = Auth.GoogleSignInApi.getSignInIntent(mGoogleApiClient);
+        startActivityForResult(signInIntent, RC_SIGN_IN);
+
+    }
+
+    private void googlesignIn2() {
+        Intent signInIntent = mGoogleSignInClient.getSignInIntent();
         startActivityForResult(signInIntent, RC_SIGN_IN);
     }
 
@@ -230,26 +249,34 @@ public class SignInActivity extends BaseActivity implements View.OnClickListener
 
 
     @Override
-    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+    public void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
-        if (requestCode == RC_SIGN_IN) {
-            GoogleSignInResult result = Auth.GoogleSignInApi.getSignInResultFromIntent(data);
-            handleSignInResult(result);
-        } else {
-            callbackManager.onActivityResult(requestCode, resultCode, data);
 
+
+        // Result returned from launching the Intent from GoogleSignInClient.getSignInIntent(...);
+        if (requestCode == RC_SIGN_IN) {
+            // The Task returned from this call is always completed, no need to attach
+            // a listener.
+            com.google.android.gms.tasks.Task<GoogleSignInAccount> task = GoogleSignIn.getSignedInAccountFromIntent(data);
+            handleSignInResult(task);
         }
     }
 
-    private void handleSignInResult(GoogleSignInResult result) {
-        if (result.isSuccess()) {
-            GoogleSignInAccount googleSignInAccount = result.getSignInAccount();
-            String email = googleSignInAccount.getEmail();
+    private void handleSignInResult(com.google.android.gms.tasks.Task<GoogleSignInAccount> completedTask) {
+
+
+
+        try {
+            Log.e("log check","got here2" );
+            GoogleSignInAccount account = completedTask.getResult(ApiException.class);
+
+            String email = account.getEmail();
+            Log.e("log check",email + "got here" );
             String first_name, last_name;
             String type = "google";
-            String id = googleSignInAccount.getId();
-            String imageUrl = String.valueOf(googleSignInAccount.getPhotoUrl());
-            String full_name = googleSignInAccount.getDisplayName();
+            String id = account.getId();
+            String imageUrl = String.valueOf(account.getPhotoUrl());
+            String full_name = account.getDisplayName();
             if (full_name.contains(" ")) {
                 String[] names = full_name.split(" ");
                 first_name = names[0];
@@ -259,8 +286,17 @@ public class SignInActivity extends BaseActivity implements View.OnClickListener
                 last_name = "";
             }
             buildSocialLoginInputs(email, first_name, last_name, id, type, imageUrl);
+
+        } catch (ApiException e) {
+            Log.e("log check","got here3" +  e.getStatusCode() );
+            // The ApiException status code indicates the detailed failure reason.
+            // Please refer to the GoogleSignInStatusCodes class reference for more information.
+            Log.w(TAG, "signInResult:failed code=" + e.getStatusCode());
+            //updateUI(null);
         }
     }
+
+
 
     private void initViews() {
         dontHaveAnAccount = findViewById(R.id.dontHaveAnAccount);

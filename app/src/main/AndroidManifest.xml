@@ -34,7 +34,7 @@
             android:value="@string/FB_APP_ID" />
 
         <provider
-            android:name="android.support.v4.content.FileProvider"
+            android:name="androidx.core.content.FileProvider"
             android:authorities="com.app.jobfizzer.provider"
             android:exported="false"
             android:grantUriPermissions="true">

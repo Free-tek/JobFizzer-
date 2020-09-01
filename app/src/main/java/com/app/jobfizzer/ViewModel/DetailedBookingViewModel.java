@@ -2,8 +2,9 @@ package com.app.jobfizzer.ViewModel;
 
 import android.annotation.SuppressLint;
 import android.app.Application;
-import android.arch.lifecycle.AndroidViewModel;
-import android.support.annotation.NonNull;
+
+import androidx.annotation.NonNull;
+import androidx.lifecycle.AndroidViewModel;
 
 import com.app.jobfizzer.Repository.DetailedBookingRepository;
 import com.app.jobfizzer.R;

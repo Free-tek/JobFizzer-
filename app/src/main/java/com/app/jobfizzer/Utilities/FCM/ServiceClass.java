@@ -8,8 +8,9 @@ import android.content.Intent;
 import android.os.Build;
 import android.os.Handler;
 import android.os.IBinder;
-import android.support.annotation.Nullable;
 import android.util.Log;
+
+import androidx.annotation.Nullable;
 
 import com.app.jobfizzer.Utilities.Prefhandler.AppSettings;
 import com.app.jobfizzer.Utilities.Constants.UrlHelper;

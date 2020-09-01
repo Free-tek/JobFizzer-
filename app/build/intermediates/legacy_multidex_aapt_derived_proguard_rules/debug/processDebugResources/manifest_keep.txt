@@ -1,0 +1,2 @@
+# Referenced at /Users/botosoftdev/Documents/jobfizzer-android/app/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:29
+-keep class com.app.jobfizzer.application.Jobfizzer { <init>(...); }

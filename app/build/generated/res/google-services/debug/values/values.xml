@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">191606272140-4bk1fbd6476k43lla4a8smtslup770fs.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://jobfizzer-1ec47.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">191606272140</string>
+    <string name="google_api_key" translatable="false">AIzaSyCfyk4XWlKThfKOOQ9VSuS7Fmek28Q4clk</string>
+    <string name="google_app_id" translatable="false">1:191606272140:android:6c872feedad2e5e5</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCfyk4XWlKThfKOOQ9VSuS7Fmek28Q4clk</string>
+    <string name="google_storage_bucket" translatable="false">jobfizzer-1ec47.appspot.com</string>
+    <string name="project_id" translatable="false">jobfizzer-1ec47</string>
+</resources>

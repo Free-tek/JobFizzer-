@@ -1,13 +1,14 @@
 package com.app.jobfizzer.View.activities;
 
-import android.arch.lifecycle.Observer;
-import android.arch.lifecycle.ViewModelProviders;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.annotation.Nullable;
 import android.view.Window;
 import android.view.WindowManager;
+
+import androidx.annotation.Nullable;
+import androidx.lifecycle.Observer;
+import androidx.lifecycle.ViewModelProviders;
 
 import com.app.jobfizzer.Model.FlagResponseModel;
 import com.app.jobfizzer.Utilities.ApiCall.ApiCall;

@@ -1,10 +1,11 @@
 package com.app.jobfizzer.Utilities.Stripe;
 
 import android.content.Context;
-import android.support.annotation.NonNull;
-import android.support.annotation.Size;
 import android.util.Log;
 
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Size;
 
 import com.app.jobfizzer.Utilities.Prefhandler.AppSettings;
 import com.stripe.android.EphemeralKeyProvider;

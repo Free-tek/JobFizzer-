@@ -1,9 +1,10 @@
 package com.app.jobfizzer.ViewModel;
 
 import android.app.Application;
-import android.arch.lifecycle.AndroidViewModel;
-import android.arch.lifecycle.LiveData;
-import android.support.annotation.NonNull;
+
+import androidx.annotation.NonNull;
+import androidx.lifecycle.AndroidViewModel;
+import androidx.lifecycle.LiveData;
 
 import com.app.jobfizzer.Model.SubCategoryResponseModel.SubCategoryResponseModel;
 import com.app.jobfizzer.Repository.SubCategoryRepository;

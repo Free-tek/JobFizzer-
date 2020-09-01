@@ -15,9 +15,9 @@
     <string name="about_us">About us</string>
     <string name="notification">Notification</string>
     <string name="create_new_address">Create new address</string>
-    <string name="door_no">Door no</string>
+    <string name="door_no">House no</string>
     <string name="confirm">Confirm</string>
-    <string name="landmark">Landmark</string>
+    <string name="landmark">Street</string>
     <string name="sort_by_lowset">Sort by lowest distance</string>
     <string name="sort_by_highest">Sort by highest review</string>
     <string name="payment_method">Payment Method</string>

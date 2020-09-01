@@ -1,15 +1,9 @@
 package com.app.jobfizzer.View.activities;
 
-import android.arch.lifecycle.Observer;
-import android.arch.lifecycle.ViewModelProviders;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.annotation.Nullable;
-import android.support.v4.content.ContextCompat;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
 import android.text.InputFilter;
 import android.view.View;
 import android.view.animation.AnimationUtils;
@@ -17,6 +11,13 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
+import androidx.annotation.Nullable;
+import androidx.core.content.ContextCompat;
+import androidx.lifecycle.Observer;
+import androidx.lifecycle.ViewModelProviders;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.app.jobfizzer.Model.ChatMessagesResponseModel.ChatListResponseModel;
 import com.app.jobfizzer.Model.ChatMessagesResponseModel.Result;
@@ -317,7 +318,7 @@ public class ChatActivity extends BaseActivity implements View.OnClickListener {
                     jsonObject.put("reciever_id", userID);
                     jsonObject.put("message_id", UUID.randomUUID());
                     jsonObject.put("Time", System.currentTimeMillis());
-                    jsonObject.put("content", messageInput.getText().toString());
+                    jsonObject.put("content", "test" + messageInput.getText().toString());
                     jsonObject.put("content_type", "text");
                     emitters.sendMessage(jsonObject);
                     jsonObject.put("type", "sender");

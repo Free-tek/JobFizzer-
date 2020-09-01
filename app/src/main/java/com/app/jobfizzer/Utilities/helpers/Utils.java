@@ -19,8 +19,6 @@ import android.os.Build;
 import android.os.Environment;
 import android.provider.DocumentsContract;
 import android.provider.MediaStore;
-import android.support.annotation.NonNull;
-import android.support.design.widget.Snackbar;
 import android.text.InputFilter;
 import android.text.Spanned;
 import android.text.format.DateFormat;
@@ -33,10 +31,13 @@ import android.view.WindowManager;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 
+import androidx.annotation.NonNull;
+
 import com.app.jobfizzer.Utilities.FCM.ServiceClass;
 import com.app.jobfizzer.Utilities.helpers.image_compressor.Compressor;
 import com.gigamole.navigationtabstrip.NavigationTabStrip;
 import com.app.jobfizzer.R;
+import com.google.android.material.snackbar.Snackbar;
 
 import org.xmlpull.v1.XmlPullParserException;
 

@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.koushikdutta.ion:ion:2.2.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Desktop/gradle-6.3/caches/transforms-2/files-2.1/ab58855acfc358702feb8202194a11b4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/Desktop/gradle-6.3/caches/transforms-2/files-2.1/ab58855acfc358702feb8202194a11b4/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/Desktop/gradle-6.3/caches/modules-2/files-2.1/com.koushikdutta.ion/ion/2.2.1/f2caaf31fbf5acbb450f6f06987a06d915173564/ion-2.2.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Desktop/gradle-6.3/caches/modules-2/files-2.1/com.koushikdutta.ion/ion/2.2.1/59a774dbeb8afefe068562f148997f11b89ad70b/ion-2.2.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,8 +1,9 @@
 package com.app.jobfizzer.Repository;
 
-import android.arch.lifecycle.LiveData;
-import android.arch.lifecycle.MutableLiveData;
 import android.content.Context;
+
+import androidx.lifecycle.LiveData;
+import androidx.lifecycle.MutableLiveData;
 
 import com.app.jobfizzer.Model.CategoryResponseModel.Banner_images;
 import com.app.jobfizzer.Model.CategoryResponseModel.CategoryResponse;

@@ -1,10 +1,11 @@
 package com.app.jobfizzer.ViewModel;
 
 import android.app.Application;
-import android.arch.lifecycle.AndroidViewModel;
-import android.arch.lifecycle.LiveData;
-import android.support.annotation.NonNull;
 import android.widget.LinearLayout;
+
+import androidx.annotation.NonNull;
+import androidx.lifecycle.AndroidViewModel;
+import androidx.lifecycle.LiveData;
 
 import com.app.jobfizzer.Model.AppSettingsResponseModel.AppSettingResponseModel;
 import com.app.jobfizzer.Model.AppSettingsResponseModel.Timeslot;

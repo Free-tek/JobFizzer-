@@ -1,7 +1,7 @@
 package com.app.jobfizzer.Repository;
 
-import android.arch.lifecycle.LiveData;
-import android.arch.lifecycle.MutableLiveData;
+import androidx.lifecycle.LiveData;
+import androidx.lifecycle.MutableLiveData;
 
 import com.app.jobfizzer.Model.FlagResponseModel;
 import com.app.jobfizzer.Utilities.ApiCall.ApiCall;

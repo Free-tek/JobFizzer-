@@ -1,0 +1,1156 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:2:1-211:12
+INJECTED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:2:1-211:12
+INJECTED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:2:1-211:12
+INJECTED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:2:1-211:12
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/4eba7f197a60da5e3ed82a95a6b52a13/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.android:facebook-android-sdk:4.29.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/1deb8a33c2ca0ca9b8720b0c28d10cb6/AndroidManifest.xml:21:1-31:12
+MERGED from [com.google.firebase:firebase-messaging:20.1.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/264a50e85c63ceeaa5be5443b56aee16/AndroidManifest.xml:17:1-44:12
+MERGED from [com.google.firebase:firebase-core:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/189c57b8460621c063c9c5e03fa416f0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.github.devlight.navigationtabstrip:navigationtabstrip:1.0.4] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/b03a60b8531fa47bdcb08bf8b7109fd4/AndroidManifest.xml:14:1-29:12
+MERGED from [uk.co.chrisjenx:calligraphy:2.3.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/252775459e6dc6776a92122286cd64cb/AndroidManifest.xml:2:1-13:12
+MERGED from [com.leinardi.android:speed-dial:2.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/184e7b359c90601f984cc2a8b9c291e6/AndroidManifest.xml:17:1-26:12
+MERGED from [com.stripe:stripe-android:6.1.1] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/3e27bc9ca9878fbf201c3b3a9694d76e/AndroidManifest.xml:2:1-27:12
+MERGED from [com.google.android.material:material:1.0.0-rc01] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/2e1617b19d70a269c4512edc37feda5d/AndroidManifest.xml:17:1-24:12
+MERGED from [com.yarolegovich:discrete-scrollview:1.3.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/7251cc1c99e5150bdc9afdfd851c538f/AndroidManifest.xml:2:1-12:12
+MERGED from [com.facebook.android:facebook-login:4.29.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/d22137f763e4c526c1717ee5f2859d3a/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-share:4.29.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/c131f5abea8cd2238e66aca6dd86168d/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-common:4.29.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/7b1c9230f741261f7a87918de9cf258e/AndroidManifest.xml:21:1-36:12
+MERGED from [androidx.appcompat:appcompat:1.0.0-rc01] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/63e5e831063e20f44b18462feb1e646c/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.browser:browser:1.0.0-rc01] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/f57502e642221f9760a9e00b0161ea38/AndroidManifest.xml:17:1-22:12
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/fc15cd8e47c1a86afc30cae7a415bec8/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-plus:17.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/6cf6937bce5119bd0783fd64092138c3/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-auth:18.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/6f34bbd2b48141cfe2e8f573e4b07c3d/AndroidManifest.xml:17:1-39:12
+MERGED from [me.relex:circleindicator:1.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/21a4983f83de4ffb21dbc2eb9f09f363/AndroidManifest.xml:2:1-12:12
+MERGED from [com.loopeer.lib:shadow:0.0.3] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/9c87400fb8da35f1824f72f0dd3cb4f8/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/aaa815e19cf1137ef7886761ff6f4501/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0-rc01] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/885fd6d9cb8f36451dbce20bf49d6802/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0-rc01] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/559c1b21fabaece78f296d25a3a1bb6c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.koushikdutta.ion:ion:2.2.1] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/ab58855acfc358702feb8202194a11b4/AndroidManifest.xml:2:1-16:12
+MERGED from [com.github.mmin18:realtimeblurview:1.1.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/ff801c1deb9cd95351b9121efacd4c3a/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/b0702ad478ddae8186674b118d44fd37/AndroidManifest.xml:2:1-12:12
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/18cadebb1246231ba0190585061349fb/AndroidManifest.xml:17:1-38:12
+MERGED from [com.makeramen:roundedimageview:2.3.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/e91594076c4f65b0a00e34b874acfee2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.romandanylyk:pageindicatorview:0.2.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/0c8f79ead00252638ea868d4c4576ddb/AndroidManifest.xml:2:1-12:12
+MERGED from [io.reactivex:rxandroid:1.2.1] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/54162cc08e86d6728d95af41a1b23123/AndroidManifest.xml:15:1-21:12
+MERGED from [com.github.lsjwzh.RecyclerViewPager:lib:v1.1.1] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/3ab5cbcf0efa94243927d266808c686d/AndroidManifest.xml:2:1-14:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/c61647a2699747d56f59a986553abcf7/AndroidManifest.xml:2:1-11:12
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.8.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/afe56d91d1c7ffeb7751a6bbbd547a79/AndroidManifest.xml:2:1-19:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0-rc01] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/289f8dcd7458d950d3976f928e520c61/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-audience:17.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/0a498dd9060a24c0cc74eab15f578db6/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/efef44d3e5cbfb2eb8239d535ce5b4c4/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/29c8f8cb85349c4bb7a89b98d93ea598/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-analytics:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/4db7a93e4047579170f62493921deeaf/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/a6cb5ae9301bb76f5618ab61defdeefa/AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.firebase:firebase-iid:20.0.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/481bcdb3fd8d2a2b903990edf513764f/AndroidManifest.xml:17:1-47:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/993669ad0d59260eecf9b3e6b2e9d46f/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/c79ee95c102afc4f9638dde3bc88af1a/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/40b5473a242f62eca23508cb5c5d88cd/AndroidManifest.xml:15:1-34:12
+MERGED from [com.google.firebase:firebase-common:19.3.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/34fe433f347ce80a2de5129144872eb9/AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/b78fd5ba58b35b1c99aa790f851b92cf/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/32ca53b781def71ac23ea2cad5741849/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/465fd51829c6aa0b256df5c81f8c75dc/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-measurement:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/f8ba2d79f21e9f1a1d9cf189eecc2a33/AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/d9f1acdd46e1fc7333508e5e6b934a86/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/f81dedd9b08156889ab534dee700576d/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/06a19c7167d40a7b94e901d5b69328f4/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/16db7015f89e74722575cf32ffdfa691/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/b0748bc1c00d34e173ac65f93b819ae1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/e5a15f6f7b96d1c502c397635879c42f/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:17.1.1] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/bb8726e9a8e373a33eda363a07793b1f/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/bac2a8fd13239aa425d651b4aa5f5530/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.android:facebook-places:4.29.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/5467b3b6557c43344c6c8d46293e02eb/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-applinks:4.29.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/588dabc97657547f2b6dbd40b3af1c97/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-messenger:4.29.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/05d41fe4a219b0a315ddcc7683551d04/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-core:4.29.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/5303ab0a7b0616ee0d5aefdf82ad52b8/AndroidManifest.xml:21:1-45:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0-rc01] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/76a51f15e806a53eac4d9d2c20b8cca0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0-rc01] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/6ed71301ec7be4cfe4746713eff509ba/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/a60c095fcedaba1d66c755164faa6543/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/008a60249f6326fe364456eb4825f882/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/d1fcfb61aa017caa0bf48bd725b71364/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/f56e09ca0f616eb8e6d16f8a56b82d3e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.ybq:Android-SpinKit:1.4.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/49b5e7f9bca7cde08e1ccaad04887b05/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0-rc01] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/736de1a8017863681afb40837e1dd046/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0-rc01] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/4ecbfaad6395ca4868a48953022c005d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0-rc01] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/e69eb7d187398b24a53c302482101d46/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/458e54f4635d8f91fd98ff2df4588e7d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/cad8a2cdecbddce66caf5a0bbb4fa4db/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/74c1e595ab8682812196c9b91c8cd529/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/714ef86fc3c9570a297cb739060ccc45/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/2c1cd795b3ea3692887f00b9955c81a6/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/76e8d4a2a1e8d95213100d3fcde485a0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/0fb9d0bbbfce8e02622e778b1b001dc0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/6a20ca2f8974ec15f445a01f83de9ef0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/589a68751eb78b205f688e4218e9e57d/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/22233be09365037f878a6a1a39307096/AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/99136a366a0e9cdca376ef90b4695531/AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.datatransport:transport-api:2.2.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/178ff8b61c7f78abdfc15fffb32b524b/AndroidManifest.xml:15:1-22:12
+MERGED from [com.google.firebase:firebase-components:16.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/d8d7505e187f6ca0734e6d5d842e8ab0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.firebase:firebase-encoders-json:16.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/9df4eb4f271fa2ee5315376948139d77/AndroidManifest.xml:15:1-23:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/15452e089ca00ea10926b811949ed730/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0-rc01] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/38f61a1d5c86df2c195f6563877227b1/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0-rc01] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/1c77afe26a4be0a77b2dc27c615a9b12/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/1ef665f308ce8a0ece387f0c1fd73303/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/8d5cefc7081acca2ead4d6c2d7b13dcf/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/c97109cd9d6917fd602288946680780e/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/c35378bceeb308c39379398e2a545d0f/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/34657db0792c603173f33d0a78b5e804/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/8d12c7d6e3dbaa83beeec6027a3a14f8/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/7d23431d45b5ded18760344a4c9504a0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/dc227d7430965bd4d89599977068354c/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/0108fbafc549e3f68d9c7aa34954e5f9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.koushikdutta.async:androidasync:2.2.1] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/bc807fe0cf2b5a130be673a7d38bc600/AndroidManifest.xml:2:1-16:12
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.5.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/601f50030af59ba3f10e0ddd3bace8a0/AndroidManifest.xml:45:1-56:12
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/570698d6b813a68b60e0c803b3a7130d/AndroidManifest.xml:2:1-13:12
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/10abf6933e9a56901d11f05b1dc2f8b2/AndroidManifest.xml:2:1-13:12
+MERGED from [io.fabric.sdk.android:fabric:1.4.1] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/03b9376fe5ce6d4940b40cf5a80c0ece/AndroidManifest.xml:22:1-33:12
+INJECTED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:2:1-211:12
+INJECTED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:2:1-211:12
+INJECTED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:2:1-211:12
+	package
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:4:5-32
+		INJECTED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:2:1-211:12
+		INJECTED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:2:1-211:12
+		INJECTED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:6:22-76
+uses-permission#android.permission.INTERNET
+ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:7:5-67
+MERGED from [com.koushikdutta.ion:ion:2.2.1] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/ab58855acfc358702feb8202194a11b4/AndroidManifest.xml:11:5-67
+MERGED from [com.koushikdutta.ion:ion:2.2.1] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/ab58855acfc358702feb8202194a11b4/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/18cadebb1246231ba0190585061349fb/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/18cadebb1246231ba0190585061349fb/AndroidManifest.xml:24:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.8.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/afe56d91d1c7ffeb7751a6bbbd547a79/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.8.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/afe56d91d1c7ffeb7751a6bbbd547a79/AndroidManifest.xml:9:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/a6cb5ae9301bb76f5618ab61defdeefa/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/a6cb5ae9301bb76f5618ab61defdeefa/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:20.0.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/481bcdb3fd8d2a2b903990edf513764f/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:20.0.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/481bcdb3fd8d2a2b903990edf513764f/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/f8ba2d79f21e9f1a1d9cf189eecc2a33/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/f8ba2d79f21e9f1a1d9cf189eecc2a33/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/f81dedd9b08156889ab534dee700576d/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/f81dedd9b08156889ab534dee700576d/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/16db7015f89e74722575cf32ffdfa691/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/16db7015f89e74722575cf32ffdfa691/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/22233be09365037f878a6a1a39307096/AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/22233be09365037f878a6a1a39307096/AndroidManifest.xml:26:5-67
+MERGED from [com.koushikdutta.async:androidasync:2.2.1] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/bc807fe0cf2b5a130be673a7d38bc600/AndroidManifest.xml:11:5-67
+MERGED from [com.koushikdutta.async:androidasync:2.2.1] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/bc807fe0cf2b5a130be673a7d38bc600/AndroidManifest.xml:11:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.5.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/601f50030af59ba3f10e0ddd3bace8a0/AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.5.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/601f50030af59ba3f10e0ddd3bace8a0/AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/570698d6b813a68b60e0c803b3a7130d/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/570698d6b813a68b60e0c803b3a7130d/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/10abf6933e9a56901d11f05b1dc2f8b2/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/10abf6933e9a56901d11f05b1dc2f8b2/AndroidManifest.xml:9:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.4.1] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/03b9376fe5ce6d4940b40cf5a80c0ece/AndroidManifest.xml:29:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.4.1] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/03b9376fe5ce6d4940b40cf5a80c0ece/AndroidManifest.xml:29:5-67
+	android:name
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:7:22-64
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:8:22-78
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:9:5-76
+	android:name
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:9:22-73
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/18cadebb1246231ba0190585061349fb/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/18cadebb1246231ba0190585061349fb/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/a6cb5ae9301bb76f5618ab61defdeefa/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/a6cb5ae9301bb76f5618ab61defdeefa/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-iid:20.0.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/481bcdb3fd8d2a2b903990edf513764f/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:20.0.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/481bcdb3fd8d2a2b903990edf513764f/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-measurement:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/f8ba2d79f21e9f1a1d9cf189eecc2a33/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/f8ba2d79f21e9f1a1d9cf189eecc2a33/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/f81dedd9b08156889ab534dee700576d/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/f81dedd9b08156889ab534dee700576d/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/16db7015f89e74722575cf32ffdfa691/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/16db7015f89e74722575cf32ffdfa691/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/22233be09365037f878a6a1a39307096/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/22233be09365037f878a6a1a39307096/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/99136a366a0e9cdca376ef90b4695531/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/99136a366a0e9cdca376ef90b4695531/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:10:22-76
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:11:5-80
+	android:name
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:11:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:12:22-78
+uses-permission#android.permission.CAMERA
+ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:13:5-65
+	android:name
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:13:22-62
+uses-permission#android.permission.CALL_PHONE
+ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:14:5-69
+	android:name
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:14:22-66
+application
+ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:16:5-209:19
+MERGED from [com.facebook.android:facebook-android-sdk:4.29.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/1deb8a33c2ca0ca9b8720b0c28d10cb6/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-android-sdk:4.29.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/1deb8a33c2ca0ca9b8720b0c28d10cb6/AndroidManifest.xml:28:5-29:19
+MERGED from [com.google.firebase:firebase-messaging:20.1.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/264a50e85c63ceeaa5be5443b56aee16/AndroidManifest.xml:22:5-42:19
+MERGED from [com.google.firebase:firebase-messaging:20.1.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/264a50e85c63ceeaa5be5443b56aee16/AndroidManifest.xml:22:5-42:19
+MERGED from [com.google.firebase:firebase-core:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/189c57b8460621c063c9c5e03fa416f0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/189c57b8460621c063c9c5e03fa416f0/AndroidManifest.xml:7:5-20
+MERGED from [com.github.devlight.navigationtabstrip:navigationtabstrip:1.0.4] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/b03a60b8531fa47bdcb08bf8b7109fd4/AndroidManifest.xml:23:5-27:19
+MERGED from [com.github.devlight.navigationtabstrip:navigationtabstrip:1.0.4] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/b03a60b8531fa47bdcb08bf8b7109fd4/AndroidManifest.xml:23:5-27:19
+MERGED from [uk.co.chrisjenx:calligraphy:2.3.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/252775459e6dc6776a92122286cd64cb/AndroidManifest.xml:11:5-20
+MERGED from [uk.co.chrisjenx:calligraphy:2.3.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/252775459e6dc6776a92122286cd64cb/AndroidManifest.xml:11:5-20
+MERGED from [com.stripe:stripe-android:6.1.1] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/3e27bc9ca9878fbf201c3b3a9694d76e/AndroidManifest.xml:11:5-25:19
+MERGED from [com.stripe:stripe-android:6.1.1] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/3e27bc9ca9878fbf201c3b3a9694d76e/AndroidManifest.xml:11:5-25:19
+MERGED from [com.google.android.material:material:1.0.0-rc01] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/2e1617b19d70a269c4512edc37feda5d/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0-rc01] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/2e1617b19d70a269c4512edc37feda5d/AndroidManifest.xml:22:5-20
+MERGED from [com.facebook.android:facebook-login:4.29.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/d22137f763e4c526c1717ee5f2859d3a/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-login:4.29.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/d22137f763e4c526c1717ee5f2859d3a/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-share:4.29.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/c131f5abea8cd2238e66aca6dd86168d/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-share:4.29.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/c131f5abea8cd2238e66aca6dd86168d/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-common:4.29.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/7b1c9230f741261f7a87918de9cf258e/AndroidManifest.xml:28:5-34:19
+MERGED from [com.facebook.android:facebook-common:4.29.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/7b1c9230f741261f7a87918de9cf258e/AndroidManifest.xml:28:5-34:19
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/fc15cd8e47c1a86afc30cae7a415bec8/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/fc15cd8e47c1a86afc30cae7a415bec8/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-plus:17.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/6cf6937bce5119bd0783fd64092138c3/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-plus:17.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/6cf6937bce5119bd0783fd64092138c3/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-auth:18.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/6f34bbd2b48141cfe2e8f573e4b07c3d/AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:18.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/6f34bbd2b48141cfe2e8f573e4b07c3d/AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/aaa815e19cf1137ef7886761ff6f4501/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/aaa815e19cf1137ef7886761ff6f4501/AndroidManifest.xml:7:5-20
+MERGED from [com.koushikdutta.ion:ion:2.2.1] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/ab58855acfc358702feb8202194a11b4/AndroidManifest.xml:13:5-14:19
+MERGED from [com.koushikdutta.ion:ion:2.2.1] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/ab58855acfc358702feb8202194a11b4/AndroidManifest.xml:13:5-14:19
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/b0702ad478ddae8186674b118d44fd37/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/b0702ad478ddae8186674b118d44fd37/AndroidManifest.xml:10:5-20
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/18cadebb1246231ba0190585061349fb/AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/18cadebb1246231ba0190585061349fb/AndroidManifest.xml:30:5-36:19
+MERGED from [com.github.lsjwzh.RecyclerViewPager:lib:v1.1.1] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/3ab5cbcf0efa94243927d266808c686d/AndroidManifest.xml:11:5-12:19
+MERGED from [com.github.lsjwzh.RecyclerViewPager:lib:v1.1.1] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/3ab5cbcf0efa94243927d266808c686d/AndroidManifest.xml:11:5-12:19
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/c61647a2699747d56f59a986553abcf7/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/c61647a2699747d56f59a986553abcf7/AndroidManifest.xml:9:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.8.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/afe56d91d1c7ffeb7751a6bbbd547a79/AndroidManifest.xml:11:5-17:19
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.8.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/afe56d91d1c7ffeb7751a6bbbd547a79/AndroidManifest.xml:11:5-17:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0-rc01] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/289f8dcd7458d950d3976f928e520c61/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0-rc01] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/289f8dcd7458d950d3976f928e520c61/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-audience:17.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/0a498dd9060a24c0cc74eab15f578db6/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-audience:17.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/0a498dd9060a24c0cc74eab15f578db6/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-analytics:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/4db7a93e4047579170f62493921deeaf/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/4db7a93e4047579170f62493921deeaf/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/a6cb5ae9301bb76f5618ab61defdeefa/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/a6cb5ae9301bb76f5618ab61defdeefa/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.firebase:firebase-iid:20.0.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/481bcdb3fd8d2a2b903990edf513764f/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid:20.0.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/481bcdb3fd8d2a2b903990edf513764f/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/993669ad0d59260eecf9b3e6b2e9d46f/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/993669ad0d59260eecf9b3e6b2e9d46f/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/c79ee95c102afc4f9638dde3bc88af1a/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/c79ee95c102afc4f9638dde3bc88af1a/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/40b5473a242f62eca23508cb5c5d88cd/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/40b5473a242f62eca23508cb5c5d88cd/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/34fe433f347ce80a2de5129144872eb9/AndroidManifest.xml:25:5-37:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/34fe433f347ce80a2de5129144872eb9/AndroidManifest.xml:25:5-37:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/b78fd5ba58b35b1c99aa790f851b92cf/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/b78fd5ba58b35b1c99aa790f851b92cf/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/32ca53b781def71ac23ea2cad5741849/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/32ca53b781def71ac23ea2cad5741849/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/465fd51829c6aa0b256df5c81f8c75dc/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/465fd51829c6aa0b256df5c81f8c75dc/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/f8ba2d79f21e9f1a1d9cf189eecc2a33/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/f8ba2d79f21e9f1a1d9cf189eecc2a33/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/d9f1acdd46e1fc7333508e5e6b934a86/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/d9f1acdd46e1fc7333508e5e6b934a86/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/f81dedd9b08156889ab534dee700576d/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/f81dedd9b08156889ab534dee700576d/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/06a19c7167d40a7b94e901d5b69328f4/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/06a19c7167d40a7b94e901d5b69328f4/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/b0748bc1c00d34e173ac65f93b819ae1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/b0748bc1c00d34e173ac65f93b819ae1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/e5a15f6f7b96d1c502c397635879c42f/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/e5a15f6f7b96d1c502c397635879c42f/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.1.1] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/bb8726e9a8e373a33eda363a07793b1f/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.1.1] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/bb8726e9a8e373a33eda363a07793b1f/AndroidManifest.xml:22:5-26:19
+MERGED from [com.facebook.android:facebook-places:4.29.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/5467b3b6557c43344c6c8d46293e02eb/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-places:4.29.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/5467b3b6557c43344c6c8d46293e02eb/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-applinks:4.29.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/588dabc97657547f2b6dbd40b3af1c97/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-applinks:4.29.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/588dabc97657547f2b6dbd40b3af1c97/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-messenger:4.29.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/05d41fe4a219b0a315ddcc7683551d04/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-messenger:4.29.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/05d41fe4a219b0a315ddcc7683551d04/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-core:4.29.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/5303ab0a7b0616ee0d5aefdf82ad52b8/AndroidManifest.xml:28:5-43:19
+MERGED from [com.facebook.android:facebook-core:4.29.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/5303ab0a7b0616ee0d5aefdf82ad52b8/AndroidManifest.xml:28:5-43:19
+MERGED from [androidx.core:core:1.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/6a20ca2f8974ec15f445a01f83de9ef0/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/6a20ca2f8974ec15f445a01f83de9ef0/AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/589a68751eb78b205f688e4218e9e57d/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/589a68751eb78b205f688e4218e9e57d/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/22233be09365037f878a6a1a39307096/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/22233be09365037f878a6a1a39307096/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/99136a366a0e9cdca376ef90b4695531/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/99136a366a0e9cdca376ef90b4695531/AndroidManifest.xml:25:5-39:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/15452e089ca00ea10926b811949ed730/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/15452e089ca00ea10926b811949ed730/AndroidManifest.xml:9:5-20
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0-rc01] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/38f61a1d5c86df2c195f6563877227b1/AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0-rc01] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/38f61a1d5c86df2c195f6563877227b1/AndroidManifest.xml:22:5-28:19
+MERGED from [com.koushikdutta.async:androidasync:2.2.1] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/bc807fe0cf2b5a130be673a7d38bc600/AndroidManifest.xml:13:5-14:19
+MERGED from [com.koushikdutta.async:androidasync:2.2.1] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/bc807fe0cf2b5a130be673a7d38bc600/AndroidManifest.xml:13:5-14:19
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.5.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/601f50030af59ba3f10e0ddd3bace8a0/AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.5.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/601f50030af59ba3f10e0ddd3bace8a0/AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/570698d6b813a68b60e0c803b3a7130d/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/570698d6b813a68b60e0c803b3a7130d/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/10abf6933e9a56901d11f05b1dc2f8b2/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/10abf6933e9a56901d11f05b1dc2f8b2/AndroidManifest.xml:11:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.4.1] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/03b9376fe5ce6d4940b40cf5a80c0ece/AndroidManifest.xml:31:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.4.1] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/03b9376fe5ce6d4940b40cf5a80c0ece/AndroidManifest.xml:31:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/6a20ca2f8974ec15f445a01f83de9ef0/AndroidManifest.xml:22:18-86
+	android:supportsRtl
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:23:9-35
+	android:label
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:20:9-41
+	tools:targetApi
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:27:9-28
+	android:largeHeap
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:22:9-33
+	android:icon
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:19:9-43
+	android:allowBackup
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:18:9-36
+		REJECTED from [com.github.devlight.navigationtabstrip:navigationtabstrip:1.0.4] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/b03a60b8531fa47bdcb08bf8b7109fd4/AndroidManifest.xml:24:9-35
+	android:theme
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:24:9-40
+	android:networkSecurityConfig
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:21:9-69
+	tools:replace
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:26:9-58
+	android:usesCleartextTraffic
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:25:9-44
+	android:name
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:17:9-63
+uses-library#org.apache.http.legacy
+ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:28:9-30:40
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/18cadebb1246231ba0190585061349fb/AndroidManifest.xml:33:9-35:40
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/18cadebb1246231ba0190585061349fb/AndroidManifest.xml:33:9-35:40
+	android:required
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:29:13-50
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:32:9-34:49
+	android:value
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:34:13-46
+	android:name
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:33:13-58
+provider#androidx.core.content.FileProvider
+ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:36:9-44:20
+	android:grantUriPermissions
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:40:13-47
+	android:authorities
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:38:13-61
+	android:exported
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:39:13-37
+	android:name
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:37:13-62
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:41:13-43:58
+	android:resource
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:43:17-55
+	android:name
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:42:17-67
+activity#com.facebook.FacebookActivity
+ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:46:9-49:48
+MERGED from [com.facebook.android:facebook-common:4.29.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/7b1c9230f741261f7a87918de9cf258e/AndroidManifest.xml:29:9-32:66
+MERGED from [com.facebook.android:facebook-common:4.29.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/7b1c9230f741261f7a87918de9cf258e/AndroidManifest.xml:29:9-32:66
+	android:label
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:49:13-45
+	android:configChanges
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:48:13-96
+	android:theme
+		ADDED from [com.facebook.android:facebook-common:4.29.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/7b1c9230f741261f7a87918de9cf258e/AndroidManifest.xml:32:13-63
+	android:name
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:47:13-57
+activity#com.facebook.CustomTabActivity
+ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:50:9-61:20
+	android:exported
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:51:13-58
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:@string/FB_PROTOCOL_SCHEME
+ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:53:13-60:29
+action#android.intent.action.VIEW
+ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:54:17-69
+	android:name
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:54:25-66
+category#android.intent.category.DEFAULT
+ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:56:17-76
+	android:name
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:56:27-73
+category#android.intent.category.BROWSABLE
+ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:57:17-78
+	android:name
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:57:27-75
+data
+ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:59:17-69
+	android:scheme
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:59:23-66
+meta-data#com.google.android.gms.version
+ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:63:9-66:45
+MERGED from [com.google.android.gms:play-services-basement:17.1.1] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/bb8726e9a8e373a33eda363a07793b1f/AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.android.gms:play-services-basement:17.1.1] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/bb8726e9a8e373a33eda363a07793b1f/AndroidManifest.xml:23:9-25:69
+	tools:replace
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:66:13-42
+	android:value
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:65:13-66
+		REJECTED from [com.google.android.gms:play-services-basement:17.1.1] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/bb8726e9a8e373a33eda363a07793b1f/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:64:13-58
+meta-data#com.google.android.geo.API_KEY
+ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:69:9-71:55
+	android:value
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:71:13-52
+	android:name
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:70:13-58
+activity#com.app.jobfizzer.View.activities.SplashActivity
+ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:73:9-82:20
+	android:screenOrientation
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:75:13-49
+	android:theme
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:76:13-56
+	android:name
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:74:13-76
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:77:13-81:29
+action#android.intent.action.MAIN
+ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:78:17-69
+	android:name
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:78:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:80:17-77
+	android:name
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:80:27-74
+activity#com.app.jobfizzer.View.activities.OnboardActivity
+ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:83:9-86:59
+	android:screenOrientation
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:85:13-49
+	android:theme
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:86:13-56
+	android:name
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:84:13-77
+activity#com.app.jobfizzer.View.activities.SignInActivity
+ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:87:9-91:57
+	android:screenOrientation
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:89:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:91:13-54
+	android:theme
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:90:13-56
+	android:name
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:88:13-76
+activity#com.app.jobfizzer.View.activities.SignUpActivity
+ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:92:9-96:57
+	android:screenOrientation
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:94:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:96:13-54
+	android:theme
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:95:13-56
+	android:name
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:93:13-76
+activity#com.app.jobfizzer.View.activities.ForgotPasswordActivity
+ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:97:9-101:57
+	android:screenOrientation
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:99:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:101:13-54
+	android:theme
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:100:13-56
+	android:name
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:98:13-84
+activity#com.app.jobfizzer.View.activities.EnterVerificationCodeActivity
+ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:102:9-107:57
+	android:screenOrientation
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:105:13-49
+	android:label
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:104:13-75
+	android:windowSoftInputMode
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:107:13-54
+	android:theme
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:106:13-56
+	android:name
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:103:13-91
+activity#com.app.jobfizzer.View.activities.SelectLocationActivity
+ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:108:9-111:59
+	android:screenOrientation
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:110:13-49
+	android:theme
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:111:13-56
+	android:name
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:109:13-84
+activity#com.app.jobfizzer.View.activities.MainActivity
+ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:112:9-115:59
+	android:screenOrientation
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:114:13-49
+	android:theme
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:115:13-56
+	android:name
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:113:13-74
+activity#com.app.jobfizzer.View.activities.SubCategoriesActivity
+ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:116:9-119:59
+	android:screenOrientation
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:118:13-49
+	android:theme
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:119:13-56
+	android:name
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:117:13-83
+activity#com.app.jobfizzer.View.activities.SelectTimeAndAddressActivity
+ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:120:9-123:59
+	android:screenOrientation
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:122:13-49
+	android:theme
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:123:13-56
+	android:name
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:121:13-90
+activity#com.app.jobfizzer.View.activities.ProviderProfileActivity
+ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:124:9-127:59
+	android:screenOrientation
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:126:13-49
+	android:theme
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:127:13-56
+	android:name
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:125:13-85
+activity#com.app.jobfizzer.View.activities.ConfirmBookingActivity
+ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:128:9-131:59
+	android:screenOrientation
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:130:13-49
+	android:theme
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:131:13-56
+	android:name
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:129:13-84
+activity#com.app.jobfizzer.View.activities.TrackingActivity
+ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:132:9-135:59
+	android:screenOrientation
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:134:13-49
+	android:theme
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:135:13-56
+	android:name
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:133:13-78
+activity#com.app.jobfizzer.View.activities.ShowProvidersActivity
+ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:136:9-139:59
+	android:screenOrientation
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:138:13-49
+	android:theme
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:139:13-56
+	android:name
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:137:13-83
+activity#com.app.jobfizzer.View.activities.DetailedBookingActivity
+ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:140:9-143:59
+	android:screenOrientation
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:142:13-49
+	android:theme
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:143:13-56
+	android:name
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:141:13-85
+activity#com.app.jobfizzer.View.activities.MapActivity
+ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:144:9-148:57
+	android:screenOrientation
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:146:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:148:13-54
+	android:theme
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:147:13-56
+	android:name
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:145:13-73
+activity#com.app.jobfizzer.View.activities.ResetPasswordActivity
+ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:149:9-153:57
+	android:screenOrientation
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:151:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:153:13-54
+	android:theme
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:152:13-56
+	android:name
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:150:13-83
+service#com.app.jobfizzer.Utilities.FCM.FcmMessageService
+ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:155:9-159:19
+	android:name
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:155:18-82
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:156:13-158:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:157:17-78
+	android:name
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:157:25-75
+service#com.app.jobfizzer.Utilities.FCM.FirebaseIdService
+ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:160:9-164:19
+	android:name
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:160:18-82
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:161:13-163:29
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:162:17-80
+	android:name
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:162:25-77
+service#com.app.jobfizzer.Utilities.FCM.ServiceClass
+ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:165:9-80
+	android:name
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:165:18-77
+activity#com.app.jobfizzer.View.activities.ChangePasswordActivity
+ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:167:9-171:57
+	android:screenOrientation
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:169:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:171:13-54
+	android:theme
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:170:13-56
+	android:name
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:168:13-84
+activity#com.app.jobfizzer.View.activities.AboutUs
+ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:172:9-175:59
+	android:screenOrientation
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:174:13-49
+	android:theme
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:175:13-56
+	android:name
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:173:13-69
+activity#com.app.jobfizzer.View.activities.EditProfileActivity
+ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:176:9-180:57
+	android:screenOrientation
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:178:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:180:13-54
+	android:theme
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:179:13-56
+	android:name
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:177:13-81
+activity#com.app.jobfizzer.View.activities.AddressActivity
+ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:181:9-184:59
+	android:screenOrientation
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:183:13-49
+	android:theme
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:184:13-56
+	android:name
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:182:13-77
+activity#com.app.jobfizzer.View.activities.RatingActivity
+ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:185:9-188:59
+	android:screenOrientation
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:187:13-49
+	android:theme
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:188:13-56
+	android:name
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:186:13-76
+activity#com.app.jobfizzer.View.activities.ChatActivity
+ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:189:9-193:57
+	android:screenOrientation
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:191:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:193:13-54
+	android:theme
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:192:13-56
+	android:name
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:190:13-74
+activity#com.app.jobfizzer.View.activities.SearchingActivity
+ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:194:9-198:57
+	android:screenOrientation
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:196:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:198:13-54
+	android:theme
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:197:13-56
+	android:name
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:195:13-79
+meta-data#io.fabric.ApiKey
+ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:200:9-202:72
+	android:value
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:202:13-69
+	android:name
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:201:13-44
+activity#com.app.jobfizzer.View.activities.BaseActivity
+ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:204:9-83
+	android:name
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:204:19-80
+activity#com.app.jobfizzer.View.activities.ChooseLocationActivity
+ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:205:9-208:57
+	android:windowSoftInputMode
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:208:13-54
+	android:theme
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:207:13-56
+	android:name
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml:206:13-84
+uses-sdk
+INJECTED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/4eba7f197a60da5e3ed82a95a6b52a13/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/4eba7f197a60da5e3ed82a95a6b52a13/AndroidManifest.xml:20:5-43
+MERGED from [com.facebook.android:facebook-android-sdk:4.29.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/1deb8a33c2ca0ca9b8720b0c28d10cb6/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-android-sdk:4.29.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/1deb8a33c2ca0ca9b8720b0c28d10cb6/AndroidManifest.xml:24:5-26:41
+MERGED from [com.google.firebase:firebase-messaging:20.1.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/264a50e85c63ceeaa5be5443b56aee16/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:20.1.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/264a50e85c63ceeaa5be5443b56aee16/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-core:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/189c57b8460621c063c9c5e03fa416f0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/189c57b8460621c063c9c5e03fa416f0/AndroidManifest.xml:5:5-44
+MERGED from [com.github.devlight.navigationtabstrip:navigationtabstrip:1.0.4] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/b03a60b8531fa47bdcb08bf8b7109fd4/AndroidManifest.xml:19:5-21:41
+MERGED from [com.github.devlight.navigationtabstrip:navigationtabstrip:1.0.4] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/b03a60b8531fa47bdcb08bf8b7109fd4/AndroidManifest.xml:19:5-21:41
+MERGED from [uk.co.chrisjenx:calligraphy:2.3.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/252775459e6dc6776a92122286cd64cb/AndroidManifest.xml:7:5-9:41
+MERGED from [uk.co.chrisjenx:calligraphy:2.3.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/252775459e6dc6776a92122286cd64cb/AndroidManifest.xml:7:5-9:41
+MERGED from [com.leinardi.android:speed-dial:2.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/184e7b359c90601f984cc2a8b9c291e6/AndroidManifest.xml:22:5-24:41
+MERGED from [com.leinardi.android:speed-dial:2.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/184e7b359c90601f984cc2a8b9c291e6/AndroidManifest.xml:22:5-24:41
+MERGED from [com.stripe:stripe-android:6.1.1] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/3e27bc9ca9878fbf201c3b3a9694d76e/AndroidManifest.xml:7:5-9:41
+MERGED from [com.stripe:stripe-android:6.1.1] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/3e27bc9ca9878fbf201c3b3a9694d76e/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.material:material:1.0.0-rc01] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/2e1617b19d70a269c4512edc37feda5d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0-rc01] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/2e1617b19d70a269c4512edc37feda5d/AndroidManifest.xml:20:5-44
+MERGED from [com.yarolegovich:discrete-scrollview:1.3.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/7251cc1c99e5150bdc9afdfd851c538f/AndroidManifest.xml:8:5-10:41
+MERGED from [com.yarolegovich:discrete-scrollview:1.3.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/7251cc1c99e5150bdc9afdfd851c538f/AndroidManifest.xml:8:5-10:41
+MERGED from [com.facebook.android:facebook-login:4.29.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/d22137f763e4c526c1717ee5f2859d3a/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-login:4.29.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/d22137f763e4c526c1717ee5f2859d3a/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-share:4.29.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/c131f5abea8cd2238e66aca6dd86168d/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-share:4.29.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/c131f5abea8cd2238e66aca6dd86168d/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:4.29.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/7b1c9230f741261f7a87918de9cf258e/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:4.29.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/7b1c9230f741261f7a87918de9cf258e/AndroidManifest.xml:24:5-26:41
+MERGED from [androidx.appcompat:appcompat:1.0.0-rc01] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/63e5e831063e20f44b18462feb1e646c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.0-rc01] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/63e5e831063e20f44b18462feb1e646c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0-rc01] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/f57502e642221f9760a9e00b0161ea38/AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0-rc01] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/f57502e642221f9760a9e00b0161ea38/AndroidManifest.xml:20:5-44
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/fc15cd8e47c1a86afc30cae7a415bec8/AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/fc15cd8e47c1a86afc30cae7a415bec8/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-plus:17.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/6cf6937bce5119bd0783fd64092138c3/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-plus:17.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/6cf6937bce5119bd0783fd64092138c3/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:18.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/6f34bbd2b48141cfe2e8f573e4b07c3d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:18.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/6f34bbd2b48141cfe2e8f573e4b07c3d/AndroidManifest.xml:20:5-44
+MERGED from [me.relex:circleindicator:1.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/21a4983f83de4ffb21dbc2eb9f09f363/AndroidManifest.xml:8:5-10:41
+MERGED from [me.relex:circleindicator:1.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/21a4983f83de4ffb21dbc2eb9f09f363/AndroidManifest.xml:8:5-10:41
+MERGED from [com.loopeer.lib:shadow:0.0.3] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/9c87400fb8da35f1824f72f0dd3cb4f8/AndroidManifest.xml:7:5-9:41
+MERGED from [com.loopeer.lib:shadow:0.0.3] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/9c87400fb8da35f1824f72f0dd3cb4f8/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/aaa815e19cf1137ef7886761ff6f4501/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/aaa815e19cf1137ef7886761ff6f4501/AndroidManifest.xml:5:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0-rc01] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/885fd6d9cb8f36451dbce20bf49d6802/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0-rc01] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/885fd6d9cb8f36451dbce20bf49d6802/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0-rc01] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/559c1b21fabaece78f296d25a3a1bb6c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0-rc01] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/559c1b21fabaece78f296d25a3a1bb6c/AndroidManifest.xml:20:5-44
+MERGED from [com.koushikdutta.ion:ion:2.2.1] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/ab58855acfc358702feb8202194a11b4/AndroidManifest.xml:7:5-9:41
+MERGED from [com.koushikdutta.ion:ion:2.2.1] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/ab58855acfc358702feb8202194a11b4/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.mmin18:realtimeblurview:1.1.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/ff801c1deb9cd95351b9121efacd4c3a/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.mmin18:realtimeblurview:1.1.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/ff801c1deb9cd95351b9121efacd4c3a/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/b0702ad478ddae8186674b118d44fd37/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/b0702ad478ddae8186674b118d44fd37/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/18cadebb1246231ba0190585061349fb/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/18cadebb1246231ba0190585061349fb/AndroidManifest.xml:20:5-44
+MERGED from [com.makeramen:roundedimageview:2.3.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/e91594076c4f65b0a00e34b874acfee2/AndroidManifest.xml:7:5-43
+MERGED from [com.makeramen:roundedimageview:2.3.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/e91594076c4f65b0a00e34b874acfee2/AndroidManifest.xml:7:5-43
+MERGED from [com.romandanylyk:pageindicatorview:0.2.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/0c8f79ead00252638ea868d4c4576ddb/AndroidManifest.xml:8:5-10:41
+MERGED from [com.romandanylyk:pageindicatorview:0.2.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/0c8f79ead00252638ea868d4c4576ddb/AndroidManifest.xml:8:5-10:41
+MERGED from [io.reactivex:rxandroid:1.2.1] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/54162cc08e86d6728d95af41a1b23123/AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex:rxandroid:1.2.1] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/54162cc08e86d6728d95af41a1b23123/AndroidManifest.xml:19:5-43
+MERGED from [com.github.lsjwzh.RecyclerViewPager:lib:v1.1.1] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/3ab5cbcf0efa94243927d266808c686d/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.lsjwzh.RecyclerViewPager:lib:v1.1.1] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/3ab5cbcf0efa94243927d266808c686d/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/c61647a2699747d56f59a986553abcf7/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/c61647a2699747d56f59a986553abcf7/AndroidManifest.xml:5:5-7:41
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.8.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/afe56d91d1c7ffeb7751a6bbbd547a79/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.8.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/afe56d91d1c7ffeb7751a6bbbd547a79/AndroidManifest.xml:7:5-43
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0-rc01] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/289f8dcd7458d950d3976f928e520c61/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0-rc01] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/289f8dcd7458d950d3976f928e520c61/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-audience:17.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/0a498dd9060a24c0cc74eab15f578db6/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-audience:17.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/0a498dd9060a24c0cc74eab15f578db6/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/efef44d3e5cbfb2eb8239d535ce5b4c4/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/efef44d3e5cbfb2eb8239d535ce5b4c4/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/29c8f8cb85349c4bb7a89b98d93ea598/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/29c8f8cb85349c4bb7a89b98d93ea598/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/4db7a93e4047579170f62493921deeaf/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/4db7a93e4047579170f62493921deeaf/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/a6cb5ae9301bb76f5618ab61defdeefa/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/a6cb5ae9301bb76f5618ab61defdeefa/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:20.0.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/481bcdb3fd8d2a2b903990edf513764f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:20.0.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/481bcdb3fd8d2a2b903990edf513764f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/993669ad0d59260eecf9b3e6b2e9d46f/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/993669ad0d59260eecf9b3e6b2e9d46f/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/c79ee95c102afc4f9638dde3bc88af1a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/c79ee95c102afc4f9638dde3bc88af1a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/40b5473a242f62eca23508cb5c5d88cd/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/40b5473a242f62eca23508cb5c5d88cd/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-common:19.3.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/34fe433f347ce80a2de5129144872eb9/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:19.3.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/34fe433f347ce80a2de5129144872eb9/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/b78fd5ba58b35b1c99aa790f851b92cf/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/b78fd5ba58b35b1c99aa790f851b92cf/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/32ca53b781def71ac23ea2cad5741849/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/32ca53b781def71ac23ea2cad5741849/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/465fd51829c6aa0b256df5c81f8c75dc/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/465fd51829c6aa0b256df5c81f8c75dc/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/f8ba2d79f21e9f1a1d9cf189eecc2a33/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/f8ba2d79f21e9f1a1d9cf189eecc2a33/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/d9f1acdd46e1fc7333508e5e6b934a86/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/d9f1acdd46e1fc7333508e5e6b934a86/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/f81dedd9b08156889ab534dee700576d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/f81dedd9b08156889ab534dee700576d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/06a19c7167d40a7b94e901d5b69328f4/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/06a19c7167d40a7b94e901d5b69328f4/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/16db7015f89e74722575cf32ffdfa691/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/16db7015f89e74722575cf32ffdfa691/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/b0748bc1c00d34e173ac65f93b819ae1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/b0748bc1c00d34e173ac65f93b819ae1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/e5a15f6f7b96d1c502c397635879c42f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/e5a15f6f7b96d1c502c397635879c42f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.1.1] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/bb8726e9a8e373a33eda363a07793b1f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.1.1] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/bb8726e9a8e373a33eda363a07793b1f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/bac2a8fd13239aa425d651b4aa5f5530/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/bac2a8fd13239aa425d651b4aa5f5530/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.android:facebook-places:4.29.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/5467b3b6557c43344c6c8d46293e02eb/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-places:4.29.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/5467b3b6557c43344c6c8d46293e02eb/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-applinks:4.29.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/588dabc97657547f2b6dbd40b3af1c97/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-applinks:4.29.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/588dabc97657547f2b6dbd40b3af1c97/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-messenger:4.29.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/05d41fe4a219b0a315ddcc7683551d04/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-messenger:4.29.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/05d41fe4a219b0a315ddcc7683551d04/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:4.29.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/5303ab0a7b0616ee0d5aefdf82ad52b8/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:4.29.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/5303ab0a7b0616ee0d5aefdf82ad52b8/AndroidManifest.xml:24:5-26:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0-rc01] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/76a51f15e806a53eac4d9d2c20b8cca0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0-rc01] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/76a51f15e806a53eac4d9d2c20b8cca0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0-rc01] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/6ed71301ec7be4cfe4746713eff509ba/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0-rc01] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/6ed71301ec7be4cfe4746713eff509ba/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/a60c095fcedaba1d66c755164faa6543/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/a60c095fcedaba1d66c755164faa6543/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/008a60249f6326fe364456eb4825f882/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/008a60249f6326fe364456eb4825f882/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/d1fcfb61aa017caa0bf48bd725b71364/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/d1fcfb61aa017caa0bf48bd725b71364/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/f56e09ca0f616eb8e6d16f8a56b82d3e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/f56e09ca0f616eb8e6d16f8a56b82d3e/AndroidManifest.xml:20:5-44
+MERGED from [com.github.ybq:Android-SpinKit:1.4.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/49b5e7f9bca7cde08e1ccaad04887b05/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.ybq:Android-SpinKit:1.4.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/49b5e7f9bca7cde08e1ccaad04887b05/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0-rc01] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/736de1a8017863681afb40837e1dd046/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0-rc01] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/736de1a8017863681afb40837e1dd046/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0-rc01] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/4ecbfaad6395ca4868a48953022c005d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0-rc01] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/4ecbfaad6395ca4868a48953022c005d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0-rc01] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/e69eb7d187398b24a53c302482101d46/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0-rc01] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/e69eb7d187398b24a53c302482101d46/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/458e54f4635d8f91fd98ff2df4588e7d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/458e54f4635d8f91fd98ff2df4588e7d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/cad8a2cdecbddce66caf5a0bbb4fa4db/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/cad8a2cdecbddce66caf5a0bbb4fa4db/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/74c1e595ab8682812196c9b91c8cd529/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/74c1e595ab8682812196c9b91c8cd529/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/714ef86fc3c9570a297cb739060ccc45/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/714ef86fc3c9570a297cb739060ccc45/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/2c1cd795b3ea3692887f00b9955c81a6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/2c1cd795b3ea3692887f00b9955c81a6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/76e8d4a2a1e8d95213100d3fcde485a0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/76e8d4a2a1e8d95213100d3fcde485a0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/0fb9d0bbbfce8e02622e778b1b001dc0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/0fb9d0bbbfce8e02622e778b1b001dc0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/6a20ca2f8974ec15f445a01f83de9ef0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/6a20ca2f8974ec15f445a01f83de9ef0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/589a68751eb78b205f688e4218e9e57d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/589a68751eb78b205f688e4218e9e57d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/22233be09365037f878a6a1a39307096/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/22233be09365037f878a6a1a39307096/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/99136a366a0e9cdca376ef90b4695531/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/99136a366a0e9cdca376ef90b4695531/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/178ff8b61c7f78abdfc15fffb32b524b/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/178ff8b61c7f78abdfc15fffb32b524b/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-components:16.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/d8d7505e187f6ca0734e6d5d842e8ab0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:16.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/d8d7505e187f6ca0734e6d5d842e8ab0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:16.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/9df4eb4f271fa2ee5315376948139d77/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:16.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/9df4eb4f271fa2ee5315376948139d77/AndroidManifest.xml:19:5-21:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/15452e089ca00ea10926b811949ed730/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/15452e089ca00ea10926b811949ed730/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0-rc01] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/38f61a1d5c86df2c195f6563877227b1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0-rc01] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/38f61a1d5c86df2c195f6563877227b1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0-rc01] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/1c77afe26a4be0a77b2dc27c615a9b12/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0-rc01] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/1c77afe26a4be0a77b2dc27c615a9b12/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/1ef665f308ce8a0ece387f0c1fd73303/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/1ef665f308ce8a0ece387f0c1fd73303/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/8d5cefc7081acca2ead4d6c2d7b13dcf/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/8d5cefc7081acca2ead4d6c2d7b13dcf/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/c97109cd9d6917fd602288946680780e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/c97109cd9d6917fd602288946680780e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/c35378bceeb308c39379398e2a545d0f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/c35378bceeb308c39379398e2a545d0f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/34657db0792c603173f33d0a78b5e804/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/34657db0792c603173f33d0a78b5e804/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/8d12c7d6e3dbaa83beeec6027a3a14f8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/8d12c7d6e3dbaa83beeec6027a3a14f8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/7d23431d45b5ded18760344a4c9504a0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/7d23431d45b5ded18760344a4c9504a0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/dc227d7430965bd4d89599977068354c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/dc227d7430965bd4d89599977068354c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/0108fbafc549e3f68d9c7aa34954e5f9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/0108fbafc549e3f68d9c7aa34954e5f9/AndroidManifest.xml:20:5-44
+MERGED from [com.koushikdutta.async:androidasync:2.2.1] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/bc807fe0cf2b5a130be673a7d38bc600/AndroidManifest.xml:7:5-9:41
+MERGED from [com.koushikdutta.async:androidasync:2.2.1] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/bc807fe0cf2b5a130be673a7d38bc600/AndroidManifest.xml:7:5-9:41
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.5.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/601f50030af59ba3f10e0ddd3bace8a0/AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.5.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/601f50030af59ba3f10e0ddd3bace8a0/AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/570698d6b813a68b60e0c803b3a7130d/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/570698d6b813a68b60e0c803b3a7130d/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/10abf6933e9a56901d11f05b1dc2f8b2/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/10abf6933e9a56901d11f05b1dc2f8b2/AndroidManifest.xml:7:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.4.1] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/03b9376fe5ce6d4940b40cf5a80c0ece/AndroidManifest.xml:27:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.4.1] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/03b9376fe5ce6d4940b40cf5a80c0ece/AndroidManifest.xml:27:5-43
+INJECTED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/botosoftdev/Documents/jobfizzer-android/app/src/main/AndroidManifest.xml
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:20.1.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/264a50e85c63ceeaa5be5443b56aee16/AndroidManifest.xml:28:9-34:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:20.1.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/264a50e85c63ceeaa5be5443b56aee16/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:20.1.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/264a50e85c63ceeaa5be5443b56aee16/AndroidManifest.xml:29:13-82
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-messaging:20.1.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/264a50e85c63ceeaa5be5443b56aee16/AndroidManifest.xml:35:9-41:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/a6cb5ae9301bb76f5618ab61defdeefa/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/a6cb5ae9301bb76f5618ab61defdeefa/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.firebase:firebase-iid:20.0.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/481bcdb3fd8d2a2b903990edf513764f/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:20.0.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/481bcdb3fd8d2a2b903990edf513764f/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/40b5473a242f62eca23508cb5c5d88cd/AndroidManifest.xml:25:9-31:19
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/40b5473a242f62eca23508cb5c5d88cd/AndroidManifest.xml:25:9-31:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/34fe433f347ce80a2de5129144872eb9/AndroidManifest.xml:32:9-36:35
+MERGED from [com.google.firebase:firebase-common:19.3.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/34fe433f347ce80a2de5129144872eb9/AndroidManifest.xml:32:9-36:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:20.1.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/264a50e85c63ceeaa5be5443b56aee16/AndroidManifest.xml:37:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/34fe433f347ce80a2de5129144872eb9/AndroidManifest.xml:36:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/34fe433f347ce80a2de5129144872eb9/AndroidManifest.xml:34:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:20.1.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/264a50e85c63ceeaa5be5443b56aee16/AndroidManifest.xml:36:13-84
+meta-data#com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar
+ADDED from [com.google.firebase:firebase-messaging:20.1.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/264a50e85c63ceeaa5be5443b56aee16/AndroidManifest.xml:38:13-40:85
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging:20.1.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/264a50e85c63ceeaa5be5443b56aee16/AndroidManifest.xml:40:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:20.1.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/264a50e85c63ceeaa5be5443b56aee16/AndroidManifest.xml:39:17-119
+activity#com.stripe.android.view.AddSourceActivity
+ADDED from [com.stripe:stripe-android:6.1.1] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/3e27bc9ca9878fbf201c3b3a9694d76e/AndroidManifest.xml:12:9-16:20
+	android:windowSoftInputMode
+		ADDED from [com.stripe:stripe-android:6.1.1] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/3e27bc9ca9878fbf201c3b3a9694d76e/AndroidManifest.xml:15:13-55
+	android:theme
+		ADDED from [com.stripe:stripe-android:6.1.1] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/3e27bc9ca9878fbf201c3b3a9694d76e/AndroidManifest.xml:14:13-54
+	android:name
+		ADDED from [com.stripe:stripe-android:6.1.1] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/3e27bc9ca9878fbf201c3b3a9694d76e/AndroidManifest.xml:13:13-69
+activity#com.stripe.android.view.PaymentMethodsActivity
+ADDED from [com.stripe:stripe-android:6.1.1] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/3e27bc9ca9878fbf201c3b3a9694d76e/AndroidManifest.xml:17:9-20:20
+	android:theme
+		ADDED from [com.stripe:stripe-android:6.1.1] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/3e27bc9ca9878fbf201c3b3a9694d76e/AndroidManifest.xml:19:13-54
+	android:name
+		ADDED from [com.stripe:stripe-android:6.1.1] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/3e27bc9ca9878fbf201c3b3a9694d76e/AndroidManifest.xml:18:13-74
+activity#com.stripe.android.view.PaymentFlowActivity
+ADDED from [com.stripe:stripe-android:6.1.1] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/3e27bc9ca9878fbf201c3b3a9694d76e/AndroidManifest.xml:21:9-24:20
+	android:theme
+		ADDED from [com.stripe:stripe-android:6.1.1] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/3e27bc9ca9878fbf201c3b3a9694d76e/AndroidManifest.xml:23:13-54
+	android:name
+		ADDED from [com.stripe:stripe-android:6.1.1] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/3e27bc9ca9878fbf201c3b3a9694d76e/AndroidManifest.xml:22:13-71
+activity#com.facebook.CustomTabMainActivity
+ADDED from [com.facebook.android:facebook-common:4.29.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/7b1c9230f741261f7a87918de9cf258e/AndroidManifest.xml:33:9-71
+	android:name
+		ADDED from [com.facebook.android:facebook-common:4.29.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/7b1c9230f741261f7a87918de9cf258e/AndroidManifest.xml:33:19-68
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:18.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/6f34bbd2b48141cfe2e8f573e4b07c3d/AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:18.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/6f34bbd2b48141cfe2e8f573e4b07c3d/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:18.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/6f34bbd2b48141cfe2e8f573e4b07c3d/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:18.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/6f34bbd2b48141cfe2e8f573e4b07c3d/AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:18.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/6f34bbd2b48141cfe2e8f573e4b07c3d/AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:18.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/6f34bbd2b48141cfe2e8f573e4b07c3d/AndroidManifest.xml:33:9-36:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:18.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/6f34bbd2b48141cfe2e8f573e4b07c3d/AndroidManifest.xml:35:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:18.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/6f34bbd2b48141cfe2e8f573e4b07c3d/AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:18.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/6f34bbd2b48141cfe2e8f573e4b07c3d/AndroidManifest.xml:34:13-89
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/18cadebb1246231ba0190585061349fb/AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/18cadebb1246231ba0190585061349fb/AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/18cadebb1246231ba0190585061349fb/AndroidManifest.xml:28:9-32
+provider#com.crashlytics.android.CrashlyticsInitProvider
+ADDED from [com.crashlytics.sdk.android:crashlytics:2.8.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/afe56d91d1c7ffeb7751a6bbbd547a79/AndroidManifest.xml:12:9-16:39
+	android:authorities
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.8.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/afe56d91d1c7ffeb7751a6bbbd547a79/AndroidManifest.xml:14:13-75
+	android:exported
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.8.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/afe56d91d1c7ffeb7751a6bbbd547a79/AndroidManifest.xml:15:13-37
+	android:initOrder
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.8.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/afe56d91d1c7ffeb7751a6bbbd547a79/AndroidManifest.xml:16:13-36
+	android:name
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.8.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/afe56d91d1c7ffeb7751a6bbbd547a79/AndroidManifest.xml:13:13-75
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement-api:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/a6cb5ae9301bb76f5618ab61defdeefa/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:20.0.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/481bcdb3fd8d2a2b903990edf513764f/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:20.0.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/481bcdb3fd8d2a2b903990edf513764f/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/f8ba2d79f21e9f1a1d9cf189eecc2a33/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/f8ba2d79f21e9f1a1d9cf189eecc2a33/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/f81dedd9b08156889ab534dee700576d/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/f81dedd9b08156889ab534dee700576d/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/16db7015f89e74722575cf32ffdfa691/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/16db7015f89e74722575cf32ffdfa691/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/a6cb5ae9301bb76f5618ab61defdeefa/AndroidManifest.xml:24:22-65
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/a6cb5ae9301bb76f5618ab61defdeefa/AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/a6cb5ae9301bb76f5618ab61defdeefa/AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/a6cb5ae9301bb76f5618ab61defdeefa/AndroidManifest.xml:31:17-139
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:20.0.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/481bcdb3fd8d2a2b903990edf513764f/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.0.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/481bcdb3fd8d2a2b903990edf513764f/AndroidManifest.xml:26:22-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:20.0.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/481bcdb3fd8d2a2b903990edf513764f/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:20.0.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/481bcdb3fd8d2a2b903990edf513764f/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.0.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/481bcdb3fd8d2a2b903990edf513764f/AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:20.0.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/481bcdb3fd8d2a2b903990edf513764f/AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:20.0.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/481bcdb3fd8d2a2b903990edf513764f/AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:20.0.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/481bcdb3fd8d2a2b903990edf513764f/AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.0.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/481bcdb3fd8d2a2b903990edf513764f/AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:20.0.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/481bcdb3fd8d2a2b903990edf513764f/AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:20.0.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/481bcdb3fd8d2a2b903990edf513764f/AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.0.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/481bcdb3fd8d2a2b903990edf513764f/AndroidManifest.xml:42:25-78
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/c79ee95c102afc4f9638dde3bc88af1a/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/c79ee95c102afc4f9638dde3bc88af1a/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/c79ee95c102afc4f9638dde3bc88af1a/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/c79ee95c102afc4f9638dde3bc88af1a/AndroidManifest.xml:24:13-79
+meta-data#com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar
+ADDED from [com.google.firebase:firebase-datatransport:17.0.3] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/40b5473a242f62eca23508cb5c5d88cd/AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-datatransport:17.0.3] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/40b5473a242f62eca23508cb5c5d88cd/AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-datatransport:17.0.3] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/40b5473a242f62eca23508cb5c5d88cd/AndroidManifest.xml:29:17-115
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:19.3.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/34fe433f347ce80a2de5129144872eb9/AndroidManifest.xml:26:9-30:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/34fe433f347ce80a2de5129144872eb9/AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/34fe433f347ce80a2de5129144872eb9/AndroidManifest.xml:29:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/34fe433f347ce80a2de5129144872eb9/AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/34fe433f347ce80a2de5129144872eb9/AndroidManifest.xml:27:13-77
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/f8ba2d79f21e9f1a1d9cf189eecc2a33/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/f81dedd9b08156889ab534dee700576d/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/f81dedd9b08156889ab534dee700576d/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/f8ba2d79f21e9f1a1d9cf189eecc2a33/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/f8ba2d79f21e9f1a1d9cf189eecc2a33/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/f8ba2d79f21e9f1a1d9cf189eecc2a33/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/f8ba2d79f21e9f1a1d9cf189eecc2a33/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/f8ba2d79f21e9f1a1d9cf189eecc2a33/AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/f8ba2d79f21e9f1a1d9cf189eecc2a33/AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/f81dedd9b08156889ab534dee700576d/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/f81dedd9b08156889ab534dee700576d/AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/f8ba2d79f21e9f1a1d9cf189eecc2a33/AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/f8ba2d79f21e9f1a1d9cf189eecc2a33/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/f8ba2d79f21e9f1a1d9cf189eecc2a33/AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/f8ba2d79f21e9f1a1d9cf189eecc2a33/AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/f8ba2d79f21e9f1a1d9cf189eecc2a33/AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/f8ba2d79f21e9f1a1d9cf189eecc2a33/AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/f8ba2d79f21e9f1a1d9cf189eecc2a33/AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/f8ba2d79f21e9f1a1d9cf189eecc2a33/AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/f8ba2d79f21e9f1a1d9cf189eecc2a33/AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/f8ba2d79f21e9f1a1d9cf189eecc2a33/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/f8ba2d79f21e9f1a1d9cf189eecc2a33/AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/f8ba2d79f21e9f1a1d9cf189eecc2a33/AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/f8ba2d79f21e9f1a1d9cf189eecc2a33/AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/f8ba2d79f21e9f1a1d9cf189eecc2a33/AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/f8ba2d79f21e9f1a1d9cf189eecc2a33/AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/f8ba2d79f21e9f1a1d9cf189eecc2a33/AndroidManifest.xml:49:13-87
+provider#com.facebook.internal.FacebookInitProvider
+ADDED from [com.facebook.android:facebook-core:4.29.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/5303ab0a7b0616ee0d5aefdf82ad52b8/AndroidManifest.xml:39:9-42:40
+	android:authorities
+		ADDED from [com.facebook.android:facebook-core:4.29.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/5303ab0a7b0616ee0d5aefdf82ad52b8/AndroidManifest.xml:41:13-72
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:4.29.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/5303ab0a7b0616ee0d5aefdf82ad52b8/AndroidManifest.xml:42:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:4.29.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/5303ab0a7b0616ee0d5aefdf82ad52b8/AndroidManifest.xml:40:13-70
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/22233be09365037f878a6a1a39307096/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/99136a366a0e9cdca376ef90b4695531/AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/99136a366a0e9cdca376ef90b4695531/AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/22233be09365037f878a6a1a39307096/AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/22233be09365037f878a6a1a39307096/AndroidManifest.xml:30:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/22233be09365037f878a6a1a39307096/AndroidManifest.xml:32:13-34:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/22233be09365037f878a6a1a39307096/AndroidManifest.xml:34:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/22233be09365037f878a6a1a39307096/AndroidManifest.xml:33:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/99136a366a0e9cdca376ef90b4695531/AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/99136a366a0e9cdca376ef90b4695531/AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/99136a366a0e9cdca376ef90b4695531/AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/99136a366a0e9cdca376ef90b4695531/AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/99136a366a0e9cdca376ef90b4695531/AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/99136a366a0e9cdca376ef90b4695531/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/99136a366a0e9cdca376ef90b4695531/AndroidManifest.xml:33:13-132
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.0.0-rc01] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/38f61a1d5c86df2c195f6563877227b1/AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0-rc01] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/38f61a1d5c86df2c195f6563877227b1/AndroidManifest.xml:25:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0-rc01] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/38f61a1d5c86df2c195f6563877227b1/AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0-rc01] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/38f61a1d5c86df2c195f6563877227b1/AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0-rc01] /Users/botosoftdev/Desktop/gradle-6.3/caches/transforms-2/files-2.1/38f61a1d5c86df2c195f6563877227b1/AndroidManifest.xml:24:13-79

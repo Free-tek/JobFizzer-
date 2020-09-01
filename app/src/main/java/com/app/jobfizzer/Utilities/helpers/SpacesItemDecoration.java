@@ -1,8 +1,9 @@
 package com.app.jobfizzer.Utilities.helpers;
 
 import android.graphics.Rect;
-import android.support.v7.widget.RecyclerView;
 import android.view.View;
+
+import androidx.recyclerview.widget.RecyclerView;
 
 /**
  * Created by karthik on 07/10/17.

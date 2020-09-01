@@ -3,8 +3,9 @@ package com.app.jobfizzer.View.activities;
 import android.content.Context;
 import android.graphics.Color;
 import android.os.Build;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.app.jobfizzer.Utilities.helpers.SharedHelper;
 import com.app.jobfizzer.Utilities.helpers.Utils;

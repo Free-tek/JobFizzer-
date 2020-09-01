@@ -1,13 +1,14 @@
 package com.app.jobfizzer.View.activities;
 
-import android.arch.lifecycle.Observer;
-import android.arch.lifecycle.ViewModelProviders;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
 import android.view.View;
 import android.webkit.WebView;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import androidx.annotation.Nullable;
+import androidx.lifecycle.Observer;
+import androidx.lifecycle.ViewModelProviders;
 
 import com.app.jobfizzer.Model.AllPageResponseModel;
 import com.app.jobfizzer.Utilities.ApiCall.InputForAPI;

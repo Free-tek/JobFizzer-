@@ -4,14 +4,26 @@ import android.util.Log;
 
 import com.app.jobfizzer.Utilities.Prefhandler.AppSettings;
 import com.google.firebase.iid.FirebaseInstanceId;
-import com.google.firebase.iid.FirebaseInstanceIdService;
+
 
 /**
  * Created by user on 25-10-2017.
  */
 
-public class FirebaseIdService extends FirebaseInstanceIdService {
-    private static final String TAG = FirebaseIdService.class.getSimpleName();
+public class FirebaseIdService {
+
+
+    public void onTokenRefresh() {
+        storeToken(FirebaseInstanceId.getInstance().getToken());
+    }
+
+    private void storeToken(String token) {
+        //SharedPrefManager.getInstance(getApplicationContext()).storeToken(token);
+    }
+
+
+
+    /*private static final String TAG = FirebaseIdService.class.getSimpleName();
 
     @Override
     public void onTokenRefresh() {
@@ -30,7 +42,7 @@ public class FirebaseIdService extends FirebaseInstanceIdService {
         AppSettings appSettings = new AppSettings(FirebaseIdService.this);
         appSettings.setFireBaseToken(token);
 
-    }
+    }*/
 
 
 }

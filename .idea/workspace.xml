@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="67a23454-1c04-4f9f-a64d-ee235a24926e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/app/gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/Repository/AccountRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/Repository/AccountRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/Repository/AddressRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/Repository/AddressRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/Repository/BookingsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/Repository/BookingsRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/Repository/ChangePasswordRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/Repository/ChangePasswordRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/Repository/ChatRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/Repository/ChatRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/Repository/CommonRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/Repository/CommonRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/Repository/ConfirmBookingRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/Repository/ConfirmBookingRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/Repository/DetailedBookingRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/Repository/DetailedBookingRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/Repository/EditProfileRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/Repository/EditProfileRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/Repository/HomePageRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/Repository/HomePageRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/Repository/MainScreenRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/Repository/MainScreenRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/Repository/MapRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/Repository/MapRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/Repository/SelectTimeAndAddressRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/Repository/SelectTimeAndAddressRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/Repository/ShowProvidersRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/Repository/ShowProvidersRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/Repository/SignInRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/Repository/SignInRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/Repository/SignUpRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/Repository/SignUpRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/Repository/SubCategoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/Repository/SubCategoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/Repository/TrackingRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/Repository/TrackingRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/Utilities/Animationhelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/Utilities/Animationhelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/Utilities/ApiCall/ImageLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/Utilities/ApiCall/ImageLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/Utilities/FCM/FcmMessageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/Utilities/FCM/FcmMessageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/Utilities/FCM/FirebaseIdService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/Utilities/FCM/FirebaseIdService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/Utilities/FCM/ServiceClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/Utilities/FCM/ServiceClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/Utilities/Stripe/ExampleEphemeralKeyProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/Utilities/Stripe/ExampleEphemeralKeyProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/Utilities/helpers/MapRipple.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/Utilities/helpers/MapRipple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/Utilities/helpers/SpacesItemDecoration.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/Utilities/helpers/SpacesItemDecoration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/Utilities/helpers/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/Utilities/helpers/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/activities/AboutUs.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/activities/AboutUs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/activities/AddressActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/activities/AddressActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/activities/BaseActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/activities/BaseActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/activities/ChangePasswordActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/activities/ChangePasswordActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/activities/ChatActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/activities/ChatActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/activities/ChooseLocationActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/activities/ChooseLocationActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/activities/ConfirmBookingActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/activities/ConfirmBookingActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/activities/DetailedBookingActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/activities/DetailedBookingActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/activities/EditProfileActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/activities/EditProfileActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/activities/EnterVerificationCodeActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/activities/EnterVerificationCodeActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/activities/ForgotPasswordActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/activities/ForgotPasswordActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/activities/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/activities/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/activities/MapActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/activities/MapActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/activities/OnboardActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/activities/OnboardActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/activities/ProviderProfileActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/activities/ProviderProfileActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/activities/RatingActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/activities/RatingActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/activities/ResetPasswordActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/activities/ResetPasswordActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/activities/SearchingActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/activities/SearchingActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/activities/SelectTimeAndAddressActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/activities/SelectTimeAndAddressActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/activities/ShowProvidersActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/activities/ShowProvidersActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/activities/SignInActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/activities/SignInActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/activities/SignUpActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/activities/SignUpActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/activities/SplashActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/activities/SplashActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/activities/SubCategoriesActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/activities/SubCategoriesActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/activities/TrackingActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/activities/TrackingActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/adapters/AddressAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/adapters/AddressAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/adapters/AutoCompleteAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/adapters/AutoCompleteAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/adapters/BookingsAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/adapters/BookingsAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/adapters/CategoriesAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/adapters/CategoriesAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/adapters/ChatRoomAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/adapters/ChatRoomAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/adapters/ChatsAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/adapters/ChatsAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/adapters/DatesAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/adapters/DatesAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/adapters/EditAddressAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/adapters/EditAddressAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/adapters/FavouriteSliderAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/adapters/FavouriteSliderAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/adapters/HomePageCategoryAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/adapters/HomePageCategoryAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/adapters/MainCategoriesAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/adapters/MainCategoriesAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/adapters/OtherServicesAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/adapters/OtherServicesAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/adapters/PaymentAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/adapters/PaymentAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/adapters/PaymentMiscellaneousAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/adapters/PaymentMiscellaneousAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/adapters/PaymentTaxAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/adapters/PaymentTaxAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/adapters/ProvidersAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/adapters/ProvidersAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/adapters/ProvidersListAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/adapters/ProvidersListAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/adapters/ReviewsAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/adapters/ReviewsAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/adapters/SliderAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/adapters/SliderAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/adapters/SlidingImage_Adapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/adapters/SlidingImage_Adapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/adapters/SubCategoriesAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/adapters/SubCategoriesAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/adapters/ThemeAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/adapters/ThemeAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/adapters/TimesAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/adapters/TimesAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/fragments/AccountsFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/fragments/AccountsFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/fragments/BookingsFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/fragments/BookingsFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/fragments/ChatFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/fragments/ChatFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/fragments/HomeFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/fragments/HomeFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/fragments/PageFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/fragments/PageFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/fragments/ProfileFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/fragments/ProfileFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/fragments/ReviewsFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/View/fragments/ReviewsFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/ViewModel/AccountViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/ViewModel/AccountViewModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/ViewModel/AddressViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/ViewModel/AddressViewModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/ViewModel/BookingsViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/ViewModel/BookingsViewModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/ViewModel/ChatViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/ViewModel/ChatViewModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/ViewModel/CommonViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/ViewModel/CommonViewModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/ViewModel/ConfirmBookingViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/ViewModel/ConfirmBookingViewModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/ViewModel/DetailedBookingViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/ViewModel/DetailedBookingViewModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/ViewModel/HomePageViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/ViewModel/HomePageViewModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/ViewModel/MainScreenViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/ViewModel/MainScreenViewModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/ViewModel/MapViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/ViewModel/MapViewModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/ViewModel/ProviderProfileViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/ViewModel/ProviderProfileViewModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/ViewModel/SelectTimeAndAddressViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/ViewModel/SelectTimeAndAddressViewModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/ViewModel/ShowProvidersViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/ViewModel/ShowProvidersViewModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/ViewModel/SignInViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/ViewModel/SignInViewModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/ViewModel/SignUpViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/ViewModel/SignUpViewModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/ViewModel/SubCategoryViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/ViewModel/SubCategoryViewModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/ViewModel/TrackingViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/jobfizzer/ViewModel/TrackingViewModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/dollar_symbol.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-v21/receipt_dialog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-v21/receipt_dialog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/accepted_dialog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/accepted_dialog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_about_us.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_about_us.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_address.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_address.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_change_password.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_change_password.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_chat.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_chat.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_choose_location.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_choose_location.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_confirm_booking.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_confirm_booking.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_detailed_booking.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_detailed_booking.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_edit_profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_edit_profile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_enter_verification_code.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_enter_verification_code.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_forgot_password.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_forgot_password.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_onboard.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_onboard.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_provider_profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_provider_profile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_rating.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_rating.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_reset_password.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_reset_password.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_searching_activity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_searching_activity.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_select_time_and_address.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_select_time_and_address.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_show_providers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_show_providers.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_signin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_signin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_signup.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_signup.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_sub_categories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_sub_categories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_tracking.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_tracking.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/address_items.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/address_items.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/cancel_dialog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/cancel_dialog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/dialog_payment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/dialog_payment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/filter_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/filter_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_accounts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_accounts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_bookings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_bookings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_chat.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_chat.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_reviews.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_reviews.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/home_category_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/home_category_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/home_slider.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/home_slider.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/invoice_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/invoice_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_booking.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_booking.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_category.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_category.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_provider.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_provider.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_sub_category.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_sub_category.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/no_providers_found.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/no_providers_found.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/payment_items.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/payment_items.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/provider_list_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/provider_list_view.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/show_delete_status.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/show_delete_status.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/show_thanks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/show_thanks.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/view_blocked.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/view_blocked.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/view_coupons.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/view_coupons.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/view_payment_confirmation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/view_payment_confirmation.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/view_rating_old.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/view_rating_old.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="HC710E190300135" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/app">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="jobfizzer-android" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="jobfizzer-android" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="jobfizzer-android" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="jobfizzer-android" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="android" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1a4iNgGAg4dafI5D3Ne5RnNxelA" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="HC710E180900243" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-06-15T12:01:10.304Z" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app" />
+    <property name="not.eligible.for.single.variant.sync" value="true" />
+    <property name="project.structure.last.edited" value="Dependencies" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Android App.app">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="jobfizzer-android-app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="jobfizzer-android-app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="jobfizzer-android:app [signingReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/app" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="signingReport" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.jobfizzer-android:app [signingReport]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="67a23454-1c04-4f9f-a64d-ee235a24926e" name="Default Changelist" comment="" />
+      <created>1581584829567</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581584829567</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="509" y="89" key="#app" timestamp="1591631126140">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state x="509" y="89" key="#app/0.0.1600.900@0.0.1600.900" timestamp="1591631126140" />
+    <state x="264" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591631122868">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state x="264" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.900@0.0.1600.900" timestamp="1591631122868" />
+    <state width="1558" height="300" key="GridCell.Tab.0.bottom" timestamp="1596463988365">
+      <screen x="0" y="23" width="1600" height="839" />
+    </state>
+    <state width="1558" height="325" key="GridCell.Tab.0.bottom/0.0.1600.900@0.0.1600.900" timestamp="1596137689914" />
+    <state width="1558" height="300" key="GridCell.Tab.0.bottom/0.23.1600.839@0.23.1600.839" timestamp="1596463988365" />
+    <state width="1558" height="300" key="GridCell.Tab.0.center" timestamp="1596463988364">
+      <screen x="0" y="23" width="1600" height="839" />
+    </state>
+    <state width="1558" height="325" key="GridCell.Tab.0.center/0.0.1600.900@0.0.1600.900" timestamp="1596137689913" />
+    <state width="1558" height="300" key="GridCell.Tab.0.center/0.23.1600.839@0.23.1600.839" timestamp="1596463988364" />
+    <state width="1558" height="300" key="GridCell.Tab.0.left" timestamp="1596463988362">
+      <screen x="0" y="23" width="1600" height="839" />
+    </state>
+    <state width="1558" height="325" key="GridCell.Tab.0.left/0.0.1600.900@0.0.1600.900" timestamp="1596137689912" />
+    <state width="1558" height="300" key="GridCell.Tab.0.left/0.23.1600.839@0.23.1600.839" timestamp="1596463988362" />
+    <state width="1558" height="300" key="GridCell.Tab.0.right" timestamp="1596463988365">
+      <screen x="0" y="23" width="1600" height="839" />
+    </state>
+    <state width="1558" height="325" key="GridCell.Tab.0.right/0.0.1600.900@0.0.1600.900" timestamp="1596137689914" />
+    <state width="1558" height="300" key="GridCell.Tab.0.right/0.23.1600.839@0.23.1600.839" timestamp="1596463988365" />
+    <state x="523" y="333" key="ScreenshotRecorder.Options.Dimensions" timestamp="1596133641877">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state x="523" y="333" key="ScreenshotRecorder.Options.Dimensions/0.0.1600.900@0.0.1600.900" timestamp="1596133641877" />
+    <state x="96" y="125" key="SettingsEditor" timestamp="1592227177202">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state x="96" y="125" key="SettingsEditor/0.0.1600.900@0.0.1600.900" timestamp="1592227177202" />
+    <state x="466" y="85" width="667" height="729" key="find.popup" timestamp="1592226049133">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state x="466" y="85" width="667" height="729" key="find.popup/0.0.1600.900@0.0.1600.900" timestamp="1592226049133" />
+    <state x="507" y="73" key="refactoring.ChangeSignatureDialog" timestamp="1592228904832">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state x="507" y="73" key="refactoring.ChangeSignatureDialog/0.0.1600.900@0.0.1600.900" timestamp="1592228904832" />
+    <state x="465" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1592219741681">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state x="465" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1600.900@0.0.1600.900" timestamp="1592219741681" />
+  </component>
+</project>

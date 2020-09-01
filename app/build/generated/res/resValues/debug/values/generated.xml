@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Automatically generated file. DO NOT MODIFY -->
+
+    <!-- Values from default config. -->
+    <string name="FB_APP_ID" translatable="false">"1382215248599499"</string>
+    <string name="FB_PROTOCOL_SCHEME" translatable="false">"fb1382215248599499"</string>
+    <string name="GOOGLE_MAPS_KEY" translatable="false">"AIzaSyCfyk4XWlKThfKOOQ9VSuS7Fmek28Q4clk"</string>
+    <string name="STRIPE_KEY" translatable="false">"pk_test_kDAKKfqc7yUrjxvl9hS7Ycwn"</string>
+
+</resources>

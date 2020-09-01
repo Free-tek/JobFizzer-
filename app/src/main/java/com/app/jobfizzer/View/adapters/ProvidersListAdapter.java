@@ -3,10 +3,7 @@ package com.app.jobfizzer.View.adapters;
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
-import android.support.v4.app.ActivityCompat;
-import android.support.v4.app.ActivityOptionsCompat;
-import android.support.v4.util.Pair;
-import android.support.v7.widget.RecyclerView;
+import android.util.Pair;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -14,6 +11,10 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RatingBar;
 import android.widget.TextView;
+
+import androidx.core.app.ActivityCompat;
+import androidx.core.app.ActivityOptionsCompat;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.app.jobfizzer.Model.ShowProvidersResponseModel;
 import com.app.jobfizzer.Utilities.ApiCall.ImageLoader;
@@ -71,8 +72,9 @@ public class ProvidersListAdapter extends RecyclerView.Adapter<ProvidersListAdap
                     Pair<View, String> p1 = Pair.create((View) holder.providerName, "providerName");
                     Pair<View, String> p2 = Pair.create((View) holder.providerPic, "providerPic");
                     Pair<View, String> p3 = Pair.create((View) holder.rootLayout, "parentLayout");
-                    ActivityOptionsCompat options = ActivityOptionsCompat.makeSceneTransitionAnimation((ShowProvidersActivity) context, p1, p2, p3);
-                    ActivityCompat.startActivity(context, intent, options.toBundle());
+                    //TODO: Transition commented out
+                    //ActivityOptionsCompat options = ActivityOptionsCompat.makeSceneTransitionAnimation((ShowProvidersActivity) context, p1, p2, p3);
+                    //ActivityCompat.startActivity(context, intent, options.toBundle());
                 } catch (Exception e) {
                     e.printStackTrace();
                 }

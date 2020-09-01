@@ -1,0 +1,115 @@
+{
+  "project_info": {
+    "project_number": "191606272140",
+    "firebase_url": "https://jobfizzer-1ec47.firebaseio.com",
+    "project_id": "jobfizzer-1ec47",
+    "storage_bucket": "jobfizzer-1ec47.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:191606272140:android:6c872feedad2e5e5",
+        "android_client_info": {
+          "package_name": "com.app.jobfizzer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "191606272140-8r0lu87fuu4tb14k5hbh14f550psfqrq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.jobfizzer",
+            "certificate_hash": "efb9752a011da63a7de32cee5e8330f39e7912bd"
+          }
+        },
+        {
+          "client_id": "191606272140-laapb6cif4em7ji8jdspokgtpkfhq701.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.jobfizzer",
+            "certificate_hash": "01e3f62f9f4a9b77f413f65b1c4e0ce10f306ae5"
+          }
+        },
+        {
+          "client_id": "191606272140-v5ehha09bmvo83bhsj0vjefdgknu6as3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.jobfizzer",
+            "certificate_hash": "dc3a0412ce6c7c746e48300a0409600c53e046ae"
+          }
+        },
+        {
+          "client_id": "191606272140-4bk1fbd6476k43lla4a8smtslup770fs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfyk4XWlKThfKOOQ9VSuS7Fmek28Q4clk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "191606272140-649ca1uhr0ntg34eooe7o3cqkvhvcds7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "191606272140-cbnobkc8n4hr1lb6t1pj2n98glqaflu5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.app.Jobfizzer-XP"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:191606272140:android:40a006d9446eda95",
+        "android_client_info": {
+          "package_name": "com.app.jobfizzerxp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "191606272140-4q2v47ddd90qbe6rvu8keoujb8e4i62g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.jobfizzerxp",
+            "certificate_hash": "dc3a0412ce6c7c746e48300a0409600c53e046ae"
+          }
+        },
+        {
+          "client_id": "191606272140-4bk1fbd6476k43lla4a8smtslup770fs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfyk4XWlKThfKOOQ9VSuS7Fmek28Q4clk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "191606272140-649ca1uhr0ntg34eooe7o3cqkvhvcds7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "191606272140-cbnobkc8n4hr1lb6t1pj2n98glqaflu5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.app.Jobfizzer-XP"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,8 +1,6 @@
 package com.app.jobfizzer.View.activities;
 
 import android.Manifest;
-import android.arch.lifecycle.Observer;
-import android.arch.lifecycle.ViewModelProviders;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
@@ -14,12 +12,16 @@ import android.location.LocationManager;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.v4.app.ActivityCompat;
+import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.core.app.ActivityCompat;
+import androidx.lifecycle.Observer;
+import androidx.lifecycle.ViewModelProviders;
 
 import com.app.jobfizzer.Model.DistanceResponseModel.Distance;
 import com.app.jobfizzer.Model.DistanceResponseModel.DistanceResponseModel;
@@ -302,6 +304,7 @@ public class TrackingActivity extends BaseActivity implements OnMapReadyCallback
     private void handleDistanceInfoResponse(DistanceResponseModel response) {
 
         List<com.app.jobfizzer.Model.DistanceResponseModel.Route> array = response.getRoutes();
+        Log.e("This is an error", "error" + array);
         com.app.jobfizzer.Model.DistanceResponseModel.Route routes = array.get(0);
         List<Leg> legs = routes.getLegs();
         Leg steps = legs.get(0);

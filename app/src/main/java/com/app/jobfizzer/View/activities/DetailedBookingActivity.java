@@ -1,17 +1,10 @@
 package com.app.jobfizzer.View.activities;
 
 import android.app.Dialog;
-import android.arch.lifecycle.Observer;
-import android.arch.lifecycle.ViewModelProviders;
 import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v4.content.res.ResourcesCompat;
-import android.support.v7.widget.CardView;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.Gravity;
 import android.view.View;
@@ -22,6 +15,14 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+
+import androidx.annotation.Nullable;
+import androidx.cardview.widget.CardView;
+import androidx.core.content.res.ResourcesCompat;
+import androidx.lifecycle.Observer;
+import androidx.lifecycle.ViewModelProviders;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.app.jobfizzer.Model.AppSettingsResponseModel.Alltax;
 import com.app.jobfizzer.Model.AppSettingsResponseModel.MaterialDetails;
@@ -715,7 +716,7 @@ public class DetailedBookingActivity extends BaseActivity {
         viewTen.setVisibility(View.INVISIBLE);
         viewEleven.setVisibility(View.INVISIBLE);
 
-        timeOne.setImageDrawable(getDrawable(R.drawable.circle_violeet_filled));
+        timeOne.setImageDrawable(getResources().getDrawable(R.drawable.circle_violeet_filled));
 
     }
 
@@ -745,7 +746,7 @@ public class DetailedBookingActivity extends BaseActivity {
         viewTen.setVisibility(View.INVISIBLE);
         viewEleven.setVisibility(View.INVISIBLE);
 
-        timeTwo.setImageDrawable(getDrawable(R.drawable.circle_violeet_filled));
+        timeTwo.setImageDrawable(getResources().getDrawable(R.drawable.circle_violeet_filled));
     }
 
     public void setStartToPlace() {
@@ -775,7 +776,7 @@ public class DetailedBookingActivity extends BaseActivity {
         viewTen.setVisibility(View.INVISIBLE);
         viewEleven.setVisibility(View.INVISIBLE);
 
-        timeThree.setImageDrawable(getDrawable(R.drawable.circle_violeet_filled));
+        timeThree.setImageDrawable(getResources().getDrawable(R.drawable.circle_violeet_filled));
     }
 
 
@@ -806,7 +807,7 @@ public class DetailedBookingActivity extends BaseActivity {
         viewTen.setVisibility(View.INVISIBLE);
         viewEleven.setVisibility(View.INVISIBLE);
 
-        timeFour.setImageDrawable(getDrawable(R.drawable.circle_violeet_filled));
+        timeFour.setImageDrawable(getResources().getDrawable(R.drawable.circle_violeet_filled));
     }
 
     public void setJobStarted() {
@@ -837,7 +838,7 @@ public class DetailedBookingActivity extends BaseActivity {
         viewTen.setVisibility(View.INVISIBLE);
         viewEleven.setVisibility(View.INVISIBLE);
 
-        timeFive.setImageDrawable(getDrawable(R.drawable.circle_violeet_filled));
+        timeFive.setImageDrawable(getResources().getDrawable(R.drawable.circle_violeet_filled));
     }
 
 
@@ -866,7 +867,7 @@ public class DetailedBookingActivity extends BaseActivity {
         viewTen.setVisibility(View.VISIBLE);
         viewEleven.setVisibility(View.INVISIBLE);
 
-        timeSix.setImageDrawable(getDrawable(R.drawable.circle_violeet_filled));
+        timeSix.setImageDrawable(getResources().getDrawable(R.drawable.circle_violeet_filled));
     }
 
 

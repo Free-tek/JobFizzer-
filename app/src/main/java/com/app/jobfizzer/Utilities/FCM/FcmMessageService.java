@@ -8,8 +8,9 @@ import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Build;
-import android.support.v4.app.NotificationCompat;
 import android.util.Log;
+
+import androidx.core.app.NotificationCompat;
 
 import com.app.jobfizzer.Utilities.Constants.Constants;
 import com.app.jobfizzer.View.activities.MainActivity;
@@ -65,7 +66,6 @@ public class FcmMessageService extends FirebaseMessagingService {
             notificationBuilder.setContentText(jsonObject.optString("body"));
         } else {
             notificationBuilder.setContentText(jsonObject.optString("message"));
-
         }
         NotificationManager notificationManager =
                 (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
